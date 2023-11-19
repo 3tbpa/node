@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2023-11-19 18:45:59
+#  创建时间：2023-11-19 18:47:59
 #  模版：v2rayse默认模版
-#  节点数量：592
+#  节点数量：816
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -384,7 +384,7 @@ proxies:
   - {"type":"vmess","name":"🇺🇸_US_美国_5","ws-opts":{"path":"/vmws"},"server":"206.168.190.219","port":"2082","uuid":"e31ca750-71f7-11ee-b920-1239d0255272","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸_US_美国->🇮🇳_IN_印度_2","ws-opts":{"path":"/","headers":{"host":"a.109420.xyz"}},"server":"104.17.18.26","port":"80","uuid":"5180444a-4756-43b4-960b-49eb9052e4e8","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸_US_美国->🇮🇳_IN_印度_3","ws-opts":{"path":"/","headers":{"host":"a.109420.xyz"}},"server":"104.26.8.44","port":"80","uuid":"5180444a-4756-43b4-960b-49eb9052e4e8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_US_美国->🇩🇪_DE_德国","ws-opts":{"path":"/","headers":{"host":"flkf2.shabijichang.com"}},"server":"flkf2.shabijichang.com","port":"80","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国->🇩🇪_DE_德国_1","ws-opts":{"path":"/","headers":{"host":"flkf2.shabijichang.com"}},"server":"flkf2.shabijichang.com","port":"80","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯","ws-opts":{"path":"/","headers":{"host":"jd3.shabijichang.com"}},"server":"jd3.shabijichang.com","port":"80","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸_US_美国_6","ws-opts":{"path":"/","headers":{"host":"wnd2.shabijichang.com"}},"server":"wnd2.shabijichang.com","port":"80","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸_US_美国_7","ws-opts":{"path":"/path/1696682720138","headers":{"host":"www.19229362.xyz"}},"server":"45.199.138.186","port":"30000","uuid":"4ec0ae62-de09-4029-904a-0313d4628ecf","alterId":"64","cipher":"auto","network":"ws","tls":true}
@@ -538,7 +538,6 @@ proxies:
   - {"type":"ss","name":"美国+得克萨斯州达拉斯Limestone网络公司","server":"www.dongtaiwang4.com","port":26600,"cipher":"aes-256-gcm","password":"dongtaiwang.com"}
   - {"type":"ss","name":"🇺🇸_US_美国_9","server":"85.239.52.174","port":51348,"cipher":"chacha20-ietf-poly1305","password":"datdGFe4LkMN710aHedy"}
   - {"type":"ss","name":"🇺🇸_CN_中国->🇺🇸_US_美国","server":"bjcu.xzyunjiasu.icu","port":33952,"cipher":"aes-256-gcm","password":"5c8b210a-2f00-4292-964b-05281c7ad5d1"}
-  - {"type":"ss","name":"14|🇯🇵日本|付费版推荐翻墙.com","server":"nearoute.jp.securevpn.cc","port":1020,"cipher":"aes-128-gcm:https","password":"//t.me/ssucn"}
   - {"type":"ss","name":"14|🇯🇵日本KT|@ripaojiedian","server":"139.227.182.207","port":10016,"cipher":"aes-128-gcm","password":"g12sQi#ss#&1"}
   - {"type":"ss","name":"14|🇯🇵日本KT2|@ripaojiedian","server":"139.227.182.207","port":10014,"cipher":"aes-128-gcm","password":"g12sQi#ss#&1"}
   - {"type":"ss","name":"14|🇭🇰香港KT1|@ripaojiedian","server":"47.76.51.110","port":80,"cipher":"aes-128-gcm","password":"a-wym4ovY4Yw"}
@@ -570,7 +569,6 @@ proxies:
   - {"type":"ss","name":"法国【付费推荐：https://tt.vg/vip】17","server":"54.36.174.181","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
   - {"type":"ss","name":"法国【付费推荐：https://tt.vg/vip】18","server":"54.36.174.181","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
   - {"type":"ss","name":"法国【付费推荐：https://tt.vg/vip】4","server":"54.36.174.181","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"日本|付费版推荐翻墙.com","server":"nearoute.jp.securevpn.cc","port":1020,"cipher":"aes-128-gcm:https","password":"//t.me/ssucn"}
   - {"type":"ss","name":"Tolink-🇭🇰香港|101|专线|1x","server":"bauhinia01.2apzhfa.xyz","port":30016,"cipher":"chacha20-ietf-poly1305","password":"4DtmMrn877HClUrR"}
   - {"type":"ss","name":"Tolink-🇭🇰香港|102|专线|1x","server":"bauhinia02.2apzhfa.xyz","port":30017,"cipher":"chacha20-ietf-poly1305","password":"4DtmMrn877HClUrR"}
   - {"type":"ss","name":"Tolink-🇭🇰香港|103|专线|1x","server":"bauhinia03.2apzhfa.xyz","port":30018,"cipher":"chacha20-ietf-poly1305","password":"4DtmMrn877HClUrR"}
@@ -605,6 +603,232 @@ proxies:
   - {"type":"ss","name":"YD|TG频道内随机时间更新订阅地址_14","server":"52.142.191.186","port":54452,"cipher":"chacha20-ietf-poly1305","password":"ftCnIAAQAsscwLno5J2cqd"}
   - {"type":"ss","name":"YD|tg频道:@Zyw_Channel_8","server":"31.40.216.204","port":36140,"cipher":"chacha20-ietf-poly1305","password":"FkBrRfbL2xXy8CqyydvqJY"}
   - {"type":"ss","name":"美国(油管:破解资源君)_20","server":"krse.qrfly.me","port":22004,"cipher":"chacha20-ietf-poly1305","password":"b264e44a-578c-4ce6-bb8d-cd31ae33201f"}
+  - {"type":"vless","name":"https://1808.cfNode_1","server":"104.18.123.76","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_2","server":"162.159.35.241","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_3","server":"104.18.116.18","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_4","server":"172.67.195.114","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_5","server":"172.67.69.149","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"edge.020770.xyz","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"type":"vless","name":"https://1808.cfNode_6","server":"172.67.194.57","port":443,"uuid":"e28bb3f8-e64a-4419-9496-33c46220354b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sdgf.bdfstt.sbs","ws-opts":{"path":"/?ed=2048","headers":{"host":"sdgf.bdfstt.sbs"}}}
+  - {"type":"vless","name":"https://1808.cfNode_7","server":"172.67.67.128","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"edge.020770.xyz","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"type":"vless","name":"https://1808.cfNode_8","server":"198.41.212.163","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_9","server":"104.19.174.10","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_10","server":"104.21.20.142","port":443,"uuid":"62a2236a-17cb-4aad-a6fa-bd1bbebe78ca","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sharivar.hub.iranserver.askdhbasikjbas.shop","ws-opts":{"path":"/","headers":{"host":"sharivar.hub.iranserver.askdhbasikjbas.shop"}}}
+  - {"type":"vless","name":"https://1808.cfNode_11","server":"104.21.20.142","port":443,"uuid":"ed116aee-60e9-4d0d-85c3-a8a2c3c8be6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"armanibashfreeapp1.iranserver.askdhbasikjbas.shop","ws-opts":{"path":"/","headers":{"host":"armanibashfreeapp1.iranserver.askdhbasikjbas.shop"}}}
+  - {"type":"vless","name":"https://1808.cfNode_12","server":"198.41.212.133","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_13","server":"104.21.25.28","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_14","server":"104.16.39.33","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_15","server":"162.159.43.88","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_16","server":"162.159.35.241","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_17","server":"104.21.20.142","port":443,"uuid":"14c8b3b2-e91f-4549-975c-fa42e278a318","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"armanibashfreeapp2.iranserver.askdhbasikjbas.shop","ws-opts":{"path":"/","headers":{"host":"armanibashfreeapp2.iranserver.askdhbasikjbas.shop"}}}
+  - {"type":"vless","name":"https://1808.cfNode_18","server":"172.67.192.245","port":443,"uuid":"338469e5-b7d6-43f2-ab41-837b9fbea6a4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"armanibashtestamouzesh.askdhbasikjbas.shop","ws-opts":{"path":"/","headers":{"host":"armanibashtestamouzesh.askdhbasikjbas.shop"}}}
+  - {"type":"vless","name":"https://1808.cfNode_19","server":"1.telegram-vmessprotocol-channel.space","port":443,"uuid":"e28bb3f8-e64a-4419-9496-33c46220354b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sdgf.bdfstt.sbs","ws-opts":{"path":"/?ed=2048","headers":{"host":"sdgf.bdfstt.sbs"}}}
+  - {"type":"vless","name":"https://1808.cfNode_20","server":"104.20.63.121","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_21","server":"162.159.43.88","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_22","server":"sg05.wang66.homes","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/blue"}}
+  - {"type":"vless","name":"https://1808.cfNode_23","server":"104.17.227.56","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_25","server":"172.64.174.247","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_26","server":"104.27.62.92","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_27","server":"173.245.49.250","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_28","server":"104.22.27.35","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_29","server":"173.245.59.88","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_30","server":"162.159.38.228","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_31","server":"104.20.4.101","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_32","server":"173.245.58.196","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_33","server":"173.245.59.146","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_34","server":"104.24.188.9","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_35","server":"104.25.45.83","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_36","server":"108.162.192.45","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_37","server":"104.24.76.231","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_38","server":"162.159.39.221","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_39","server":"172.67.197.103","port":443,"uuid":"1fbd7633-8800-4de0-87fb-c656017f4099","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"aurora.nextgentechnews.com","ws-opts":{"path":"/nimws","headers":{"host":"aurora.nextgentechnews.com"}}}
+  - {"type":"vless","name":"https://1808.cfNode_40","server":"188.114.98.227","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_41","server":"162.159.5.86","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_42","server":"162.159.44.240","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_43","server":"104.25.95.204","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_44","server":"198.41.194.126","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_45","server":"141.101.123.247","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_46","server":"104.20.8.145","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_47","server":"141.101.123.156","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_48","server":"104.25.96.218","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_50","server":"173.245.59.26","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_51","server":"172.64.34.27","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_52","server":"104.19.121.52","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_53","server":"104.25.37.121","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_54","server":"104.25.42.255","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_55","server":"104.27.73.12","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_56","server":"172.66.143.174","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_58","server":"198.41.198.144","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_59","server":"198.41.194.175","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_60","server":"172.66.174.60","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_61","server":"198.41.197.214","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_62","server":"104.27.10.195","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_63","server":"edtunnel-b6t.pages.dev","port":443,"uuid":"c688395a-b36b-4071-974b-bc91ac2ad2c4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"edtunnel-b6t.pages.dev","ws-opts":{"path":"/","headers":{"host":"edtunnel-b6t.pages.dev"}}}
+  - {"type":"vless","name":"https://1808.cfNode_64","server":"172.67.121.27","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"edge.020770.xyz","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"type":"vless","name":"https://1808.cfNode_65","server":"172.64.131.195","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_66","server":"104.24.141.202","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_67","server":"172.64.172.39","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_68","server":"104.25.71.117","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_69","server":"104.19.134.205","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_70","server":"172.67.56.144","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"edge.020770.xyz","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"type":"vless","name":"https://1808.cfNode_71","server":"108.162.192.225","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_72","server":"104.27.126.13","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_73","server":"198.41.193.25","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_74","server":"198.41.195.179","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_75","server":"198.41.194.175","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_76","server":"198.41.196.191","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_77","server":"104.20.133.20","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_78","server":"104.24.189.51","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_79","server":"104.21.196.252","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_80","server":"172.67.110.94","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_81","server":"104.31.16.144","port":443,"uuid":"e28bb3f8-e64a-4419-9496-33c46220354b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sdgf.bdfstt.sbs","ws-opts":{"path":"/?ed=2048","headers":{"host":"sdgf.bdfstt.sbs"}}}
+  - {"type":"vless","name":"https://1808.cfNode_82","server":"530.outline-vpn.cloud","port":443,"uuid":"1fbd7633-8800-4de0-87fb-c656017f4099","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"aurora.nextgentechnews.com","ws-opts":{"path":"/nimws","headers":{"host":"aurora.nextgentechnews.com"}}}
+  - {"type":"vless","name":"https://1808.cfNode_83","server":"104.17.87.104","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_84","server":"198.41.197.10","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_85","server":"104.27.93.210","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_86","server":"172.64.159.112","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_87","server":"198.41.195.93","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_88","server":"104.21.0.172","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_89","server":"104.25.211.215","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_90","server":"172.67.98.228","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_91","server":"104.27.11.12","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_92","server":"108.162.194.44","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_93","server":"104.17.90.195","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_94","server":"104.27.196.28","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_95","server":"172.67.112.160","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_96","server":"198.41.196.235","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_97","server":"104.18.53.106","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_98","server":"104.27.1.64","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_99","server":"198.41.192.51","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_100","server":"162.159.39.221","port":2096,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_101","server":"198.41.194.175","port":2096,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_102","server":"104.25.232.79","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_103","server":"172.66.0.54","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_104","server":"104.25.174.145","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_105","server":"104.24.191.223","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_106","server":"104.19.132.27","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_107","server":"162.159.39.221","port":2083,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_108","server":"198.41.221.127","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk05.ylks.link","ws-opts":{"path":"/blue","headers":{"host":"hk05.ylks.link"}}}
+  - {"type":"vless","name":"https://1808.cfNode_109","server":"198.41.196.208","port":2083,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_110","server":"198.41.196.208","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_111","server":"172.67.17.35","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_112","server":"198.41.196.208","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"jp05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"jp05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_113","server":"190.93.245.234","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg05.wang66.homes","ws-opts":{"path":"/blue","headers":{"host":"sg05.wang66.homes"}}}
+  - {"type":"vless","name":"https://1808.cfNode_115","server":"104.24.145.43","port":2083,"uuid":"b3c67462-87f5-442e-8cdc-fc298e397815","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vip1.futurevpn.fun","ws-opts":{"path":"/","headers":{"host":"vip1.futurevpn.fun"}}}
+  - {"type":"vless","name":"https://1808.cfNode_116","server":"172.67.95.232","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"edge.020770.xyz","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"type":"vless","name":"https://1808.cfNode_117","server":"172.67.96.59","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"edge.020770.xyz","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"type":"vless","name":"https://1808.cfNode_118","server":"172.67.56.140","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"edge.020770.xyz","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"type":"vless","name":"🇳🇱_NL_荷兰->🇬🇧_GB_英国_1","server":"188.114.96.2","port":8443,"uuid":"884f9b2c-f0c5-44dd-a68e-3e39ce93bb39","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf-wkrs-pages-vless-aoy.pages.dev","ws-opts":{"path":"/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/https://zipoapps.com/digitalclock/privacy/tabrizm137/diamond_tm.net","headers":{"host":"cf-wkrs-pages-vless-aoy.pages.dev"}}}
+  - {"type":"vless","name":"🇳🇱_NL_荷兰->🇬🇧_GB_英国_2","server":"188.114.96.109","port":8443,"uuid":"884f9b2c-f0c5-44dd-a68e-3e39ce93bb39","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cf-wkrs-pages-vless-aoy.pages.dev","ws-opts":{"path":"/","headers":{"host":"cf-wkrs-pages-vless-aoy.pages.dev"}}}
+  - {"type":"vless","name":"🇺🇸_US_美国->🇫🇷_FR_法国_1","server":"104.21.76.160","port":443,"uuid":"1fbd7633-8800-4de0-87fb-c656017f4099","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"aurora.nextgentechnews.com","ws-opts":{"path":"/nimws","headers":{"host":"aurora.nextgentechnews.com"}}}
+  - {"type":"vless","name":"🇺🇸_US_美国->🇩🇪_DE_德国_2","server":"104.19.255.51","port":2053,"uuid":"4b90796f-8973-467e-966b-54319b064ee9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"weidokxdjifmdmnr0tcjnisdx.bale.bio","ws-opts":{"path":"/backup","headers":{"host":"weidokxdjifmdmnr0tcjnisdx.bale.bio"}}}
+  - {"type":"vless","name":"🇺🇸_US_美国->🇩🇪_DE_德国_3","server":"104.22.13.192","port":2053,"uuid":"4b90796f-8973-467e-966b-54319b064ee9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"weidokxdjifmdmnr0tcjnisdx.bale.bio","ws-opts":{"path":"/backup","headers":{"host":"weidokxdjifmdmnr0tcjnisdx.bale.bio"}}}
+  - {"type":"vless","name":"🇺🇸_US_美国->🇫🇷_FR_法国_2","server":"172.67.204.17","port":443,"uuid":"6a81765b-c396-41fc-82eb-8e80a5328f72","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hated.thenorthernlights.website","ws-opts":{"path":"/nimws","headers":{"host":"hated.thenorthernlights.website"}}}
+  - {"type":"vless","name":"🇺🇸_US_美国->🇫🇷_FR_法国_3","server":"104.21.74.139","port":443,"uuid":"a3f8cad2-e83b-4429-a290-373bec463c7e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"colonelcy.aurorainiceland.com","ws-opts":{"path":"/nimws","headers":{"host":"colonelcy.aurorainiceland.com"}}}
+  - {"type":"vless","name":"🇺🇸_US_美国_10","server":"172.66.47.174","port":443,"uuid":"c688395a-b36b-4071-974b-bc91ac2ad2c4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"edtunnel-b6t.pages.dev","ws-opts":{"path":"/","headers":{"host":"edtunnel-b6t.pages.dev"}}}
+  - {"type":"vless","name":"🇺🇸_US_美国->🇫🇷_FR_法国_4","server":"172.67.156.243","port":443,"uuid":"a78a170d-4f18-45ef-b723-c77d7c235931","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"creviced.andromedagalaxy.website","ws-opts":{"path":"/nimws","headers":{"host":"creviced.andromedagalaxy.website"}}}
+  - {"type":"vless","name":"🇺🇸_US_美国_11","server":"104.18.200.220","port":443,"uuid":"c688395a-b36b-4071-974b-bc91ac2ad2c4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"edtunnel-b6t.pages.dev","ws-opts":{"path":"/","headers":{"host":"edtunnel-b6t.pages.dev"}}}
+  - {"type":"vless","name":"🇺🇸_US_美国->🇬🇧_GB_英国_3","server":"172.67.162.197","port":443,"uuid":"ae143fd0-3fad-4a3e-bc14-064de037b578","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"c1.gem2.cfd","ws-opts":{"path":"/","headers":{"host":"c1.gem2.cfd"}}}
+  - {"type":"vless","name":"🇷🇴_RO_罗马尼亚->🇳🇱_NL_荷兰","server":"146.70.175.125","port":443,"uuid":"7fa0ed5f-4c53-4fa9-af42-46fb2ca1279a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"65qPXvw0.youthinkyoucanstopmefyoudpi.site","ws-opts":{"path":"/","headers":{"host":"65qPXvw0.youthinkyoucanstopmefyoudpi.site"}}}
+  - {"type":"vless","name":"🇺🇸_US_美国->🇬🇧_GB_英国_4","server":"104.21.69.44","port":443,"uuid":"e9d5bad8-387f-4e02-ae4f-afcdca9c7b08","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ca1.vlessx.info","ws-opts":{"path":"/telegram:@vpnhub69telegram:@vpnhub69telegram:@vpnhub69telegram:@vpnhub69","headers":{"host":"ca1.vlessx.info"}}}
+  - {"type":"vless","name":"🇺🇸_US_美国_12","server":"172.67.169.146","port":8443,"uuid":"aef9ab0f-fb0e-40ce-bb9b-beacaf6a2db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"tel.ArV2ray.fun","ws-opts":{"path":"/","headers":{"host":"tel.ArV2ray.fun"}}}
+  - {"type":"trojan","name":"爱尔兰+都柏林Amazon数据中心","server":"52.211.199.247","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🇫🇷_FR_法国","server":"13.39.45.140","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🇮🇪_IE_爱尔兰","server":"34.249.127.158","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🇬🇧_GB_英国","server":"18.130.101.110","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"1|_CN_->_US__1","server":"other.kunlun-ppg.com","port":10850,"password":"b1169481-07ac-4eff-91f2-4306aa1c545c","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"1|_CN_->_US__2","server":"other.kunlun-ppg.com","port":10838,"password":"b1169481-07ac-4eff-91f2-4306aa1c545c","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"1|_CN_->_US__3","server":"other.kunlun-ppg.com","port":10837,"password":"b1169481-07ac-4eff-91f2-4306aa1c545c","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"1|_CN_->_UA_","server":"other.kunlun-ppg.com","port":10845,"password":"b1169481-07ac-4eff-91f2-4306aa1c545c","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"1|_CN_->_AT_","server":"other.kunlun-ppg.com","port":10848,"password":"b1169481-07ac-4eff-91f2-4306aa1c545c","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸_US_@ZDYZ2_259","server":"xg107.npv4.com","port":443,"password":"0e8d1da9-c4c5-3e4f-9f43-27aae8355eb1","udp":true,"skip-cert-verify":true,"sni":"xg107.npv4.com","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-NA🇬🇧GB-18.132.92.245:22222📡PING-081.75-MS","server":"18.132.92.245","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp","ws-opts":{"headers":{"host":"trj.rollingnext.co.uk"}}}
+  - {"type":"trojan","name":"🔒TR-TCP-NA🇬🇧GB-18.169.247.68:22222📡PING-076.55-MS","server":"18.169.247.68","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp","ws-opts":{"headers":{"host":"trj.rollingnext.co.uk"}}}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇬🇧GB-13.41.67.170:22222📡PING-081.60-MS","server":"13.41.67.170","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇫🇷FR-13.36.223.203:22222📡PING-085.82-MS","server":"13.36.223.203","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇩🇪DE-3.74.83.133:22222📡PING-092.45-MS","server":"3.74.83.133","port":22222,"password":"telegram-id-directvpn","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇮🇪IE-52.18.89.135:22222📡PING-073.07-MS","server":"52.18.89.135","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇮🇪IE-34.242.120.239:22222📡PING-083.20-MS","server":"34.242.120.239","port":22222,"password":"telegram-id-directvpn","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇩🇪DE-18.198.157.7:22222📡PING-091.91-MS","server":"18.198.157.7","port":22222,"password":"telegram-id-directvpn","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇫🇷FR-52.47.96.139:22222📡PING-084.77-MS","server":"52.47.96.139","port":22222,"password":"telegram-id-directvpn","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇺🇸US-138.2.234.225:45555📡PING-073.27-MS","server":"138.2.234.225","port":45555,"password":"VpRuqFDCJo","udp":true,"skip-cert-verify":true,"sni":"sj1.alieszvps.cf","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-NA🇩🇪DE-18.198.62.12:22222📡PING-093.34-MS","server":"18.198.62.12","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🇸🇬+新加坡_1024077","server":"138.2.85.162","port":10001,"password":"8861ad96-45d4-42f7-9703-7de363a39a0f","udp":true,"skip-cert-verify":true,"sni":"sg1.fighting.win","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇮🇪IE-52.209.239.173:22222📡PING-080.84-MS","server":"52.209.239.173","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇸🇪SE-51.20.195.129:22222📡PING-158.68-MS","server":"51.20.195.129","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇸🇪SE-16.170.176.203:22222📡PING-160.26-MS","server":"16.170.176.203","port":22222,"password":"telegram-id-directvpn","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇨🇦CA-35.182.204.195:22222📡PING-018.69-MS","server":"35.182.204.195","port":22222,"password":"telegram-id-directvpn","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇮🇪IE-54.194.174.71:22222📡PING-070.86-MS","server":"54.194.174.71","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇸🇪SE-13.48.110.217:22222📡PING-108.42-MS","server":"13.48.110.217","port":22222,"password":"telegram-id-directvpn","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇫🇷FR-52.47.125.244:22222📡PING-082.20-MS","server":"52.47.125.244","port":22222,"password":"telegram-id-directvpn","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-TLS🇫🇷FR-13.36.115.109:22222📡PING-081.03-MS","server":"13.36.115.109","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"🔒TR-TCP-NA🇫🇷FR-13.36.121.210:22222📡PING-083.92-MS","server":"13.36.121.210","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp","ws-opts":{"headers":{"host":"trj.rollingnext.co.uk"}}}
+  - {"type":"trojan","name":"🔒","server":"40.233.80.60","port":53193,"password":"FDORRjxNOm","udp":true,"skip-cert-verify":true,"sni":"android.googleapis.com","network":"tcp"}
+  - {"type":"trojan","name":"https://1808.cfNode_119","server":"tg_mfbpn_d4.52vpn.eu.org","port":11017,"password":"85db6652-a747-3a0a-a170-422736076410","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"YD|www.zyw.asiaZYW免费节点_9","server":"18.169.150.213","port":22222,"password":"telegram-id-directvpn","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
+  - {"type":"trojan","name":"YD|@Zyw_Channel_9","server":"tr.rdclstr.click","port":51537,"password":"xPoyKvfIuN","udp":true,"skip-cert-verify":true,"sni":"tr.rdclstr.click","network":"tcp"}
+  - {"type":"trojan","name":"YD|@Zyw_Channel_10","server":"141.193.68.81","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","udp":true,"skip-cert-verify":true,"sni":"glc-us3.windowsupdatea.com","network":"tcp"}
+  - {"type":"trojan","name":"YD|tg频道:@Zyw_Channel_9","server":"xg107.npv4.com","port":443,"password":"6a96b7c2-c918-3bb6-94b5-9861d13f9a00","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"YD|www.zyw.asiaZYW免费节点_10","server":"download1tw.windowsupdatea.com","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","udp":true,"skip-cert-verify":true,"sni":"glc-tw1.windowsupdatea.com","network":"tcp"}
+  - {"type":"trojan","name":"YD|tg频道:@Zyw_Channel_10","server":"xg107.npv4.com","port":443,"password":"6a96b7c2-c918-3bb6-94b5-9861d13f9a00","udp":true,"skip-cert-verify":true,"sni":"xg107.npv4.com","network":"tcp"}
+  - {"type":"trojan","name":"YD|www.zyw.asiaZYW免费节点_11","server":"47.76.34.107","port":443,"password":"6a96b7c2-c918-3bb6-94b5-9861d13f9a00","udp":true,"skip-cert-verify":true,"sni":"xg107.npv4.com","network":"tcp"}
+  - {"type":"trojan","name":"YD|www.zyw.asiaZYW免费节点_12","server":"36.133.1.43","port":38000,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","udp":true,"skip-cert-verify":true,"sni":"glc-sg1.windowsupdatea.com","network":"tcp"}
+  - {"type":"trojan","name":"YD|TG频道内随机时间更新订阅地址_15","server":"download2hkt.windowsupdatea.com","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","udp":true,"skip-cert-verify":true,"sni":"glc-hkt2.windowsupdatea.com","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_1","server":"hk.binguo.link","port":10801,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|TG频道内随机时间更新订阅地址_1","server":"hk.binguo.link","port":10802,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_2","server":"hk.binguo.link","port":10803,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_1","server":"hk.binguo.link","port":10804,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|TG频道内随机时间更新订阅地址_2","server":"hk.binguo.link","port":10805,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_2","server":"hk.binguo.link","port":10806,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_3","server":"hk.binguo.link","port":10807,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_4","server":"hk.binguo.link","port":10808,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_5","server":"hk.binguo.link","port":10809,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_6","server":"hk.binguo.link","port":10810,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_7","server":"jp.binguo.link","port":10811,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_3","server":"jp.binguo.link","port":10812,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_8","server":"jp.binguo.link","port":10813,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_4","server":"jp.binguo.link","port":10814,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|TG频道内随机时间更新订阅地址_3","server":"jp.binguo.link","port":10815,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|TG频道内随机时间更新订阅地址_4","server":"jp.binguo.link","port":10816,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_9","server":"jp.binguo.link","port":10817,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|www.zyw.asiaZYW免费节点_1","server":"jp.binguo.link","port":10818,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_5","server":"us.binguo.link","port":10819,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_10","server":"us.binguo.link","port":10820,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|www.zyw.asiaZYW免费节点_2","server":"us.binguo.link","port":10821,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|www.zyw.asiaZYW免费节点_3","server":"us.binguo.link","port":10822,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|TG频道内随机时间更新订阅地址_5","server":"us.binguo.link","port":10823,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_6","server":"us.binguo.link","port":10824,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_7","server":"us.binguo.link","port":10825,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_11","server":"us.binguo.link","port":10826,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_12","server":"sg.binguo.link","port":10827,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_13","server":"sg.binguo.link","port":10828,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_8","server":"sg.binguo.link","port":10829,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|TG频道内随机时间更新订阅地址_6","server":"sg.binguo.link","port":10830,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_14","server":"sg.binguo.link","port":10831,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_9","server":"sg.binguo.link","port":10832,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_10","server":"sg.binguo.link","port":10833,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_11","server":"sg.binguo.link","port":10834,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|www.zyw.asiaZYW免费节点_4","server":"other.binguo.link","port":10835,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_15","server":"other.binguo.link","port":10836,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_16","server":"other.binguo.link","port":10837,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|www.zyw.asiaZYW免费节点_5","server":"other.binguo.link","port":10838,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_12","server":"other.binguo.link","port":10839,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_13","server":"other.binguo.link","port":10840,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_17","server":"other.binguo.link","port":10841,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_14","server":"other.binguo.link","port":10842,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_18","server":"other.binguo.link","port":10843,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|TG频道内随机时间更新订阅地址_7","server":"other.binguo.link","port":10844,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|tg频道:@Zyw_Channel_15","server":"other.binguo.link","port":10845,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_19","server":"other.binguo.link","port":10846,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|www.zyw.asiaZYW免费节点_6","server":"other.binguo.link","port":10847,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_20","server":"other.binguo.link","port":10848,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|@Zyw_Channel_21","server":"other.binguo.link","port":10849,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"DG|www.zyw.asiaZYW免费节点_7","server":"other.binguo.link","port":10850,"password":"498e608a-7efa-4108-97f3-665c0f84f43b","udp":true,"skip-cert-verify":true,"sni":"alibaba-node.cn","network":"tcp"}
+  - {"type":"trojan","name":"亚洲(油管:破解资源君)_3","server":"download1hkt.windowsupdatea.com","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","udp":true,"skip-cert-verify":true,"sni":"glc-hkt1.windowsupdatea.com","network":"tcp"}
+  - {"type":"trojan","name":"亚洲(油管:破解资源君)_4","server":"36.228.212.127","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","udp":true,"skip-cert-verify":true,"sni":"glc-tw1.windowsupdatea.com","network":"tcp"}
+  - {"type":"trojan","name":"亚洲(油管:破解资源君)_5","server":"203.198.16.28","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","udp":true,"skip-cert-verify":true,"sni":"glc-hkt1.windowsupdatea.com","network":"tcp"}
+  - {"type":"trojan","name":"亚洲(油管:破解资源君)_6","server":"tone.zoozoo.co.za","port":443,"password":"1381fa76-e460-3a03-a01b-b9ad00e01415","udp":true,"skip-cert-verify":true,"sni":"tone.zoozoo.co.za","network":"tcp"}
+  - {"type":"trojan","name":"美国(油管:破解资源君)_21","server":"213.202.216.14","port":443,"password":"a0b94904-68f1-4e35-9509-0b188cf84505","udp":true,"skip-cert-verify":true,"sni":"downloadde.xn--mes358acgm99l.com","network":"tcp"}
+  - {"type":"trojan","name":"美国(油管:破解资源君)_22","server":"89.163.220.99","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","udp":true,"skip-cert-verify":true,"sni":"glc-de1.windowsupdatea.com","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -982,7 +1206,7 @@ proxy-groups:
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
       - 🇺🇸_US_美国->🇮🇳_IN_印度_3
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
       - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -1136,7 +1360,6 @@ proxy-groups:
       - 美国+得克萨斯州达拉斯Limestone网络公司
       - 🇺🇸_US_美国_9
       - 🇺🇸_CN_中国->🇺🇸_US_美国
-      - 14|🇯🇵日本|付费版推荐翻墙.com
       - 14|🇯🇵日本KT|@ripaojiedian
       - 14|🇯🇵日本KT2|@ripaojiedian
       - 14|🇭🇰香港KT1|@ripaojiedian
@@ -1168,7 +1391,6 @@ proxy-groups:
       - 法国【付费推荐：https://tt.vg/vip】17
       - 法国【付费推荐：https://tt.vg/vip】18
       - 法国【付费推荐：https://tt.vg/vip】4
-      - 日本|付费版推荐翻墙.com
       - Tolink-🇭🇰香港|101|专线|1x
       - Tolink-🇭🇰香港|102|专线|1x
       - Tolink-🇭🇰香港|103|专线|1x
@@ -1203,6 +1425,232 @@ proxy-groups:
       - YD|TG频道内随机时间更新订阅地址_14
       - YD|tg频道:@Zyw_Channel_8
       - 美国(油管:破解资源君)_20
+      - https://1808.cfNode_1
+      - https://1808.cfNode_2
+      - https://1808.cfNode_3
+      - https://1808.cfNode_4
+      - https://1808.cfNode_5
+      - https://1808.cfNode_6
+      - https://1808.cfNode_7
+      - https://1808.cfNode_8
+      - https://1808.cfNode_9
+      - https://1808.cfNode_10
+      - https://1808.cfNode_11
+      - https://1808.cfNode_12
+      - https://1808.cfNode_13
+      - https://1808.cfNode_14
+      - https://1808.cfNode_15
+      - https://1808.cfNode_16
+      - https://1808.cfNode_17
+      - https://1808.cfNode_18
+      - https://1808.cfNode_19
+      - https://1808.cfNode_20
+      - https://1808.cfNode_21
+      - https://1808.cfNode_22
+      - https://1808.cfNode_23
+      - https://1808.cfNode_25
+      - https://1808.cfNode_26
+      - https://1808.cfNode_27
+      - https://1808.cfNode_28
+      - https://1808.cfNode_29
+      - https://1808.cfNode_30
+      - https://1808.cfNode_31
+      - https://1808.cfNode_32
+      - https://1808.cfNode_33
+      - https://1808.cfNode_34
+      - https://1808.cfNode_35
+      - https://1808.cfNode_36
+      - https://1808.cfNode_37
+      - https://1808.cfNode_38
+      - https://1808.cfNode_39
+      - https://1808.cfNode_40
+      - https://1808.cfNode_41
+      - https://1808.cfNode_42
+      - https://1808.cfNode_43
+      - https://1808.cfNode_44
+      - https://1808.cfNode_45
+      - https://1808.cfNode_46
+      - https://1808.cfNode_47
+      - https://1808.cfNode_48
+      - https://1808.cfNode_50
+      - https://1808.cfNode_51
+      - https://1808.cfNode_52
+      - https://1808.cfNode_53
+      - https://1808.cfNode_54
+      - https://1808.cfNode_55
+      - https://1808.cfNode_56
+      - https://1808.cfNode_58
+      - https://1808.cfNode_59
+      - https://1808.cfNode_60
+      - https://1808.cfNode_61
+      - https://1808.cfNode_62
+      - https://1808.cfNode_63
+      - https://1808.cfNode_64
+      - https://1808.cfNode_65
+      - https://1808.cfNode_66
+      - https://1808.cfNode_67
+      - https://1808.cfNode_68
+      - https://1808.cfNode_69
+      - https://1808.cfNode_70
+      - https://1808.cfNode_71
+      - https://1808.cfNode_72
+      - https://1808.cfNode_73
+      - https://1808.cfNode_74
+      - https://1808.cfNode_75
+      - https://1808.cfNode_76
+      - https://1808.cfNode_77
+      - https://1808.cfNode_78
+      - https://1808.cfNode_79
+      - https://1808.cfNode_80
+      - https://1808.cfNode_81
+      - https://1808.cfNode_82
+      - https://1808.cfNode_83
+      - https://1808.cfNode_84
+      - https://1808.cfNode_85
+      - https://1808.cfNode_86
+      - https://1808.cfNode_87
+      - https://1808.cfNode_88
+      - https://1808.cfNode_89
+      - https://1808.cfNode_90
+      - https://1808.cfNode_91
+      - https://1808.cfNode_92
+      - https://1808.cfNode_93
+      - https://1808.cfNode_94
+      - https://1808.cfNode_95
+      - https://1808.cfNode_96
+      - https://1808.cfNode_97
+      - https://1808.cfNode_98
+      - https://1808.cfNode_99
+      - https://1808.cfNode_100
+      - https://1808.cfNode_101
+      - https://1808.cfNode_102
+      - https://1808.cfNode_103
+      - https://1808.cfNode_104
+      - https://1808.cfNode_105
+      - https://1808.cfNode_106
+      - https://1808.cfNode_107
+      - https://1808.cfNode_108
+      - https://1808.cfNode_109
+      - https://1808.cfNode_110
+      - https://1808.cfNode_111
+      - https://1808.cfNode_112
+      - https://1808.cfNode_113
+      - https://1808.cfNode_115
+      - https://1808.cfNode_116
+      - https://1808.cfNode_117
+      - https://1808.cfNode_118
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_1
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_3
+      - 🇷🇴_RO_罗马尼亚->🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_12
+      - 爱尔兰+都柏林Amazon数据中心
+      - 🇫🇷_FR_法国
+      - 🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国
+      - 1|_CN_->_US__1
+      - 1|_CN_->_US__2
+      - 1|_CN_->_US__3
+      - 1|_CN_->_UA_
+      - 1|_CN_->_AT_
+      - 🇺🇸_US_@ZDYZ2_259
+      - 🔒TR-TCP-NA🇬🇧GB-18.132.92.245:22222📡PING-081.75-MS
+      - 🔒TR-TCP-NA🇬🇧GB-18.169.247.68:22222📡PING-076.55-MS
+      - 🔒TR-TCP-TLS🇬🇧GB-13.41.67.170:22222📡PING-081.60-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.223.203:22222📡PING-085.82-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-3.74.83.133:22222📡PING-092.45-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-52.18.89.135:22222📡PING-073.07-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-34.242.120.239:22222📡PING-083.20-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-18.198.157.7:22222📡PING-091.91-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.96.139:22222📡PING-084.77-MS
+      - 🔒TR-TCP-TLS🇺🇸US-138.2.234.225:45555📡PING-073.27-MS
+      - 🔒TR-TCP-NA🇩🇪DE-18.198.62.12:22222📡PING-093.34-MS
+      - 🇸🇬+新加坡_1024077
+      - 🔒TR-TCP-TLS🇮🇪IE-52.209.239.173:22222📡PING-080.84-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-51.20.195.129:22222📡PING-158.68-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-16.170.176.203:22222📡PING-160.26-MS
+      - 🔒TR-TCP-TLS🇨🇦CA-35.182.204.195:22222📡PING-018.69-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-54.194.174.71:22222📡PING-070.86-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-13.48.110.217:22222📡PING-108.42-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.125.244:22222📡PING-082.20-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.115.109:22222📡PING-081.03-MS
+      - 🔒TR-TCP-NA🇫🇷FR-13.36.121.210:22222📡PING-083.92-MS
+      - 🔒
+      - https://1808.cfNode_119
+      - YD|www.zyw.asiaZYW免费节点_9
+      - YD|@Zyw_Channel_9
+      - YD|@Zyw_Channel_10
+      - YD|tg频道:@Zyw_Channel_9
+      - YD|www.zyw.asiaZYW免费节点_10
+      - YD|tg频道:@Zyw_Channel_10
+      - YD|www.zyw.asiaZYW免费节点_11
+      - YD|www.zyw.asiaZYW免费节点_12
+      - YD|TG频道内随机时间更新订阅地址_15
+      - DG|@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_1
+      - DG|@Zyw_Channel_2
+      - DG|tg频道:@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_2
+      - DG|tg频道:@Zyw_Channel_2
+      - DG|@Zyw_Channel_3
+      - DG|@Zyw_Channel_4
+      - DG|@Zyw_Channel_5
+      - DG|@Zyw_Channel_6
+      - DG|@Zyw_Channel_7
+      - DG|tg频道:@Zyw_Channel_3
+      - DG|@Zyw_Channel_8
+      - DG|tg频道:@Zyw_Channel_4
+      - DG|TG频道内随机时间更新订阅地址_3
+      - DG|TG频道内随机时间更新订阅地址_4
+      - DG|@Zyw_Channel_9
+      - DG|www.zyw.asiaZYW免费节点_1
+      - DG|tg频道:@Zyw_Channel_5
+      - DG|@Zyw_Channel_10
+      - DG|www.zyw.asiaZYW免费节点_2
+      - DG|www.zyw.asiaZYW免费节点_3
+      - DG|TG频道内随机时间更新订阅地址_5
+      - DG|tg频道:@Zyw_Channel_6
+      - DG|tg频道:@Zyw_Channel_7
+      - DG|@Zyw_Channel_11
+      - DG|@Zyw_Channel_12
+      - DG|@Zyw_Channel_13
+      - DG|tg频道:@Zyw_Channel_8
+      - DG|TG频道内随机时间更新订阅地址_6
+      - DG|@Zyw_Channel_14
+      - DG|tg频道:@Zyw_Channel_9
+      - DG|tg频道:@Zyw_Channel_10
+      - DG|tg频道:@Zyw_Channel_11
+      - DG|www.zyw.asiaZYW免费节点_4
+      - DG|@Zyw_Channel_15
+      - DG|@Zyw_Channel_16
+      - DG|www.zyw.asiaZYW免费节点_5
+      - DG|tg频道:@Zyw_Channel_12
+      - DG|tg频道:@Zyw_Channel_13
+      - DG|@Zyw_Channel_17
+      - DG|tg频道:@Zyw_Channel_14
+      - DG|@Zyw_Channel_18
+      - DG|TG频道内随机时间更新订阅地址_7
+      - DG|tg频道:@Zyw_Channel_15
+      - DG|@Zyw_Channel_19
+      - DG|www.zyw.asiaZYW免费节点_6
+      - DG|@Zyw_Channel_20
+      - DG|@Zyw_Channel_21
+      - DG|www.zyw.asiaZYW免费节点_7
+      - 亚洲(油管:破解资源君)_3
+      - 亚洲(油管:破解资源君)_4
+      - 亚洲(油管:破解资源君)_5
+      - 亚洲(油管:破解资源君)_6
+      - 美国(油管:破解资源君)_21
+      - 美国(油管:破解资源君)_22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1580,7 +2028,7 @@ proxy-groups:
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
       - 🇺🇸_US_美国->🇮🇳_IN_印度_3
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
       - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -1734,7 +2182,6 @@ proxy-groups:
       - 美国+得克萨斯州达拉斯Limestone网络公司
       - 🇺🇸_US_美国_9
       - 🇺🇸_CN_中国->🇺🇸_US_美国
-      - 14|🇯🇵日本|付费版推荐翻墙.com
       - 14|🇯🇵日本KT|@ripaojiedian
       - 14|🇯🇵日本KT2|@ripaojiedian
       - 14|🇭🇰香港KT1|@ripaojiedian
@@ -1766,7 +2213,6 @@ proxy-groups:
       - 法国【付费推荐：https://tt.vg/vip】17
       - 法国【付费推荐：https://tt.vg/vip】18
       - 法国【付费推荐：https://tt.vg/vip】4
-      - 日本|付费版推荐翻墙.com
       - Tolink-🇭🇰香港|101|专线|1x
       - Tolink-🇭🇰香港|102|专线|1x
       - Tolink-🇭🇰香港|103|专线|1x
@@ -1801,6 +2247,232 @@ proxy-groups:
       - YD|TG频道内随机时间更新订阅地址_14
       - YD|tg频道:@Zyw_Channel_8
       - 美国(油管:破解资源君)_20
+      - https://1808.cfNode_1
+      - https://1808.cfNode_2
+      - https://1808.cfNode_3
+      - https://1808.cfNode_4
+      - https://1808.cfNode_5
+      - https://1808.cfNode_6
+      - https://1808.cfNode_7
+      - https://1808.cfNode_8
+      - https://1808.cfNode_9
+      - https://1808.cfNode_10
+      - https://1808.cfNode_11
+      - https://1808.cfNode_12
+      - https://1808.cfNode_13
+      - https://1808.cfNode_14
+      - https://1808.cfNode_15
+      - https://1808.cfNode_16
+      - https://1808.cfNode_17
+      - https://1808.cfNode_18
+      - https://1808.cfNode_19
+      - https://1808.cfNode_20
+      - https://1808.cfNode_21
+      - https://1808.cfNode_22
+      - https://1808.cfNode_23
+      - https://1808.cfNode_25
+      - https://1808.cfNode_26
+      - https://1808.cfNode_27
+      - https://1808.cfNode_28
+      - https://1808.cfNode_29
+      - https://1808.cfNode_30
+      - https://1808.cfNode_31
+      - https://1808.cfNode_32
+      - https://1808.cfNode_33
+      - https://1808.cfNode_34
+      - https://1808.cfNode_35
+      - https://1808.cfNode_36
+      - https://1808.cfNode_37
+      - https://1808.cfNode_38
+      - https://1808.cfNode_39
+      - https://1808.cfNode_40
+      - https://1808.cfNode_41
+      - https://1808.cfNode_42
+      - https://1808.cfNode_43
+      - https://1808.cfNode_44
+      - https://1808.cfNode_45
+      - https://1808.cfNode_46
+      - https://1808.cfNode_47
+      - https://1808.cfNode_48
+      - https://1808.cfNode_50
+      - https://1808.cfNode_51
+      - https://1808.cfNode_52
+      - https://1808.cfNode_53
+      - https://1808.cfNode_54
+      - https://1808.cfNode_55
+      - https://1808.cfNode_56
+      - https://1808.cfNode_58
+      - https://1808.cfNode_59
+      - https://1808.cfNode_60
+      - https://1808.cfNode_61
+      - https://1808.cfNode_62
+      - https://1808.cfNode_63
+      - https://1808.cfNode_64
+      - https://1808.cfNode_65
+      - https://1808.cfNode_66
+      - https://1808.cfNode_67
+      - https://1808.cfNode_68
+      - https://1808.cfNode_69
+      - https://1808.cfNode_70
+      - https://1808.cfNode_71
+      - https://1808.cfNode_72
+      - https://1808.cfNode_73
+      - https://1808.cfNode_74
+      - https://1808.cfNode_75
+      - https://1808.cfNode_76
+      - https://1808.cfNode_77
+      - https://1808.cfNode_78
+      - https://1808.cfNode_79
+      - https://1808.cfNode_80
+      - https://1808.cfNode_81
+      - https://1808.cfNode_82
+      - https://1808.cfNode_83
+      - https://1808.cfNode_84
+      - https://1808.cfNode_85
+      - https://1808.cfNode_86
+      - https://1808.cfNode_87
+      - https://1808.cfNode_88
+      - https://1808.cfNode_89
+      - https://1808.cfNode_90
+      - https://1808.cfNode_91
+      - https://1808.cfNode_92
+      - https://1808.cfNode_93
+      - https://1808.cfNode_94
+      - https://1808.cfNode_95
+      - https://1808.cfNode_96
+      - https://1808.cfNode_97
+      - https://1808.cfNode_98
+      - https://1808.cfNode_99
+      - https://1808.cfNode_100
+      - https://1808.cfNode_101
+      - https://1808.cfNode_102
+      - https://1808.cfNode_103
+      - https://1808.cfNode_104
+      - https://1808.cfNode_105
+      - https://1808.cfNode_106
+      - https://1808.cfNode_107
+      - https://1808.cfNode_108
+      - https://1808.cfNode_109
+      - https://1808.cfNode_110
+      - https://1808.cfNode_111
+      - https://1808.cfNode_112
+      - https://1808.cfNode_113
+      - https://1808.cfNode_115
+      - https://1808.cfNode_116
+      - https://1808.cfNode_117
+      - https://1808.cfNode_118
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_1
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_3
+      - 🇷🇴_RO_罗马尼亚->🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_12
+      - 爱尔兰+都柏林Amazon数据中心
+      - 🇫🇷_FR_法国
+      - 🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国
+      - 1|_CN_->_US__1
+      - 1|_CN_->_US__2
+      - 1|_CN_->_US__3
+      - 1|_CN_->_UA_
+      - 1|_CN_->_AT_
+      - 🇺🇸_US_@ZDYZ2_259
+      - 🔒TR-TCP-NA🇬🇧GB-18.132.92.245:22222📡PING-081.75-MS
+      - 🔒TR-TCP-NA🇬🇧GB-18.169.247.68:22222📡PING-076.55-MS
+      - 🔒TR-TCP-TLS🇬🇧GB-13.41.67.170:22222📡PING-081.60-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.223.203:22222📡PING-085.82-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-3.74.83.133:22222📡PING-092.45-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-52.18.89.135:22222📡PING-073.07-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-34.242.120.239:22222📡PING-083.20-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-18.198.157.7:22222📡PING-091.91-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.96.139:22222📡PING-084.77-MS
+      - 🔒TR-TCP-TLS🇺🇸US-138.2.234.225:45555📡PING-073.27-MS
+      - 🔒TR-TCP-NA🇩🇪DE-18.198.62.12:22222📡PING-093.34-MS
+      - 🇸🇬+新加坡_1024077
+      - 🔒TR-TCP-TLS🇮🇪IE-52.209.239.173:22222📡PING-080.84-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-51.20.195.129:22222📡PING-158.68-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-16.170.176.203:22222📡PING-160.26-MS
+      - 🔒TR-TCP-TLS🇨🇦CA-35.182.204.195:22222📡PING-018.69-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-54.194.174.71:22222📡PING-070.86-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-13.48.110.217:22222📡PING-108.42-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.125.244:22222📡PING-082.20-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.115.109:22222📡PING-081.03-MS
+      - 🔒TR-TCP-NA🇫🇷FR-13.36.121.210:22222📡PING-083.92-MS
+      - 🔒
+      - https://1808.cfNode_119
+      - YD|www.zyw.asiaZYW免费节点_9
+      - YD|@Zyw_Channel_9
+      - YD|@Zyw_Channel_10
+      - YD|tg频道:@Zyw_Channel_9
+      - YD|www.zyw.asiaZYW免费节点_10
+      - YD|tg频道:@Zyw_Channel_10
+      - YD|www.zyw.asiaZYW免费节点_11
+      - YD|www.zyw.asiaZYW免费节点_12
+      - YD|TG频道内随机时间更新订阅地址_15
+      - DG|@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_1
+      - DG|@Zyw_Channel_2
+      - DG|tg频道:@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_2
+      - DG|tg频道:@Zyw_Channel_2
+      - DG|@Zyw_Channel_3
+      - DG|@Zyw_Channel_4
+      - DG|@Zyw_Channel_5
+      - DG|@Zyw_Channel_6
+      - DG|@Zyw_Channel_7
+      - DG|tg频道:@Zyw_Channel_3
+      - DG|@Zyw_Channel_8
+      - DG|tg频道:@Zyw_Channel_4
+      - DG|TG频道内随机时间更新订阅地址_3
+      - DG|TG频道内随机时间更新订阅地址_4
+      - DG|@Zyw_Channel_9
+      - DG|www.zyw.asiaZYW免费节点_1
+      - DG|tg频道:@Zyw_Channel_5
+      - DG|@Zyw_Channel_10
+      - DG|www.zyw.asiaZYW免费节点_2
+      - DG|www.zyw.asiaZYW免费节点_3
+      - DG|TG频道内随机时间更新订阅地址_5
+      - DG|tg频道:@Zyw_Channel_6
+      - DG|tg频道:@Zyw_Channel_7
+      - DG|@Zyw_Channel_11
+      - DG|@Zyw_Channel_12
+      - DG|@Zyw_Channel_13
+      - DG|tg频道:@Zyw_Channel_8
+      - DG|TG频道内随机时间更新订阅地址_6
+      - DG|@Zyw_Channel_14
+      - DG|tg频道:@Zyw_Channel_9
+      - DG|tg频道:@Zyw_Channel_10
+      - DG|tg频道:@Zyw_Channel_11
+      - DG|www.zyw.asiaZYW免费节点_4
+      - DG|@Zyw_Channel_15
+      - DG|@Zyw_Channel_16
+      - DG|www.zyw.asiaZYW免费节点_5
+      - DG|tg频道:@Zyw_Channel_12
+      - DG|tg频道:@Zyw_Channel_13
+      - DG|@Zyw_Channel_17
+      - DG|tg频道:@Zyw_Channel_14
+      - DG|@Zyw_Channel_18
+      - DG|TG频道内随机时间更新订阅地址_7
+      - DG|tg频道:@Zyw_Channel_15
+      - DG|@Zyw_Channel_19
+      - DG|www.zyw.asiaZYW免费节点_6
+      - DG|@Zyw_Channel_20
+      - DG|@Zyw_Channel_21
+      - DG|www.zyw.asiaZYW免费节点_7
+      - 亚洲(油管:破解资源君)_3
+      - 亚洲(油管:破解资源君)_4
+      - 亚洲(油管:破解资源君)_5
+      - 亚洲(油管:破解资源君)_6
+      - 美国(油管:破解资源君)_21
+      - 美国(油管:破解资源君)_22
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -2178,7 +2850,7 @@ proxy-groups:
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
       - 🇺🇸_US_美国->🇮🇳_IN_印度_3
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
       - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -2332,7 +3004,6 @@ proxy-groups:
       - 美国+得克萨斯州达拉斯Limestone网络公司
       - 🇺🇸_US_美国_9
       - 🇺🇸_CN_中国->🇺🇸_US_美国
-      - 14|🇯🇵日本|付费版推荐翻墙.com
       - 14|🇯🇵日本KT|@ripaojiedian
       - 14|🇯🇵日本KT2|@ripaojiedian
       - 14|🇭🇰香港KT1|@ripaojiedian
@@ -2364,7 +3035,6 @@ proxy-groups:
       - 法国【付费推荐：https://tt.vg/vip】17
       - 法国【付费推荐：https://tt.vg/vip】18
       - 法国【付费推荐：https://tt.vg/vip】4
-      - 日本|付费版推荐翻墙.com
       - Tolink-🇭🇰香港|101|专线|1x
       - Tolink-🇭🇰香港|102|专线|1x
       - Tolink-🇭🇰香港|103|专线|1x
@@ -2399,6 +3069,232 @@ proxy-groups:
       - YD|TG频道内随机时间更新订阅地址_14
       - YD|tg频道:@Zyw_Channel_8
       - 美国(油管:破解资源君)_20
+      - https://1808.cfNode_1
+      - https://1808.cfNode_2
+      - https://1808.cfNode_3
+      - https://1808.cfNode_4
+      - https://1808.cfNode_5
+      - https://1808.cfNode_6
+      - https://1808.cfNode_7
+      - https://1808.cfNode_8
+      - https://1808.cfNode_9
+      - https://1808.cfNode_10
+      - https://1808.cfNode_11
+      - https://1808.cfNode_12
+      - https://1808.cfNode_13
+      - https://1808.cfNode_14
+      - https://1808.cfNode_15
+      - https://1808.cfNode_16
+      - https://1808.cfNode_17
+      - https://1808.cfNode_18
+      - https://1808.cfNode_19
+      - https://1808.cfNode_20
+      - https://1808.cfNode_21
+      - https://1808.cfNode_22
+      - https://1808.cfNode_23
+      - https://1808.cfNode_25
+      - https://1808.cfNode_26
+      - https://1808.cfNode_27
+      - https://1808.cfNode_28
+      - https://1808.cfNode_29
+      - https://1808.cfNode_30
+      - https://1808.cfNode_31
+      - https://1808.cfNode_32
+      - https://1808.cfNode_33
+      - https://1808.cfNode_34
+      - https://1808.cfNode_35
+      - https://1808.cfNode_36
+      - https://1808.cfNode_37
+      - https://1808.cfNode_38
+      - https://1808.cfNode_39
+      - https://1808.cfNode_40
+      - https://1808.cfNode_41
+      - https://1808.cfNode_42
+      - https://1808.cfNode_43
+      - https://1808.cfNode_44
+      - https://1808.cfNode_45
+      - https://1808.cfNode_46
+      - https://1808.cfNode_47
+      - https://1808.cfNode_48
+      - https://1808.cfNode_50
+      - https://1808.cfNode_51
+      - https://1808.cfNode_52
+      - https://1808.cfNode_53
+      - https://1808.cfNode_54
+      - https://1808.cfNode_55
+      - https://1808.cfNode_56
+      - https://1808.cfNode_58
+      - https://1808.cfNode_59
+      - https://1808.cfNode_60
+      - https://1808.cfNode_61
+      - https://1808.cfNode_62
+      - https://1808.cfNode_63
+      - https://1808.cfNode_64
+      - https://1808.cfNode_65
+      - https://1808.cfNode_66
+      - https://1808.cfNode_67
+      - https://1808.cfNode_68
+      - https://1808.cfNode_69
+      - https://1808.cfNode_70
+      - https://1808.cfNode_71
+      - https://1808.cfNode_72
+      - https://1808.cfNode_73
+      - https://1808.cfNode_74
+      - https://1808.cfNode_75
+      - https://1808.cfNode_76
+      - https://1808.cfNode_77
+      - https://1808.cfNode_78
+      - https://1808.cfNode_79
+      - https://1808.cfNode_80
+      - https://1808.cfNode_81
+      - https://1808.cfNode_82
+      - https://1808.cfNode_83
+      - https://1808.cfNode_84
+      - https://1808.cfNode_85
+      - https://1808.cfNode_86
+      - https://1808.cfNode_87
+      - https://1808.cfNode_88
+      - https://1808.cfNode_89
+      - https://1808.cfNode_90
+      - https://1808.cfNode_91
+      - https://1808.cfNode_92
+      - https://1808.cfNode_93
+      - https://1808.cfNode_94
+      - https://1808.cfNode_95
+      - https://1808.cfNode_96
+      - https://1808.cfNode_97
+      - https://1808.cfNode_98
+      - https://1808.cfNode_99
+      - https://1808.cfNode_100
+      - https://1808.cfNode_101
+      - https://1808.cfNode_102
+      - https://1808.cfNode_103
+      - https://1808.cfNode_104
+      - https://1808.cfNode_105
+      - https://1808.cfNode_106
+      - https://1808.cfNode_107
+      - https://1808.cfNode_108
+      - https://1808.cfNode_109
+      - https://1808.cfNode_110
+      - https://1808.cfNode_111
+      - https://1808.cfNode_112
+      - https://1808.cfNode_113
+      - https://1808.cfNode_115
+      - https://1808.cfNode_116
+      - https://1808.cfNode_117
+      - https://1808.cfNode_118
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_1
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_3
+      - 🇷🇴_RO_罗马尼亚->🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_12
+      - 爱尔兰+都柏林Amazon数据中心
+      - 🇫🇷_FR_法国
+      - 🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国
+      - 1|_CN_->_US__1
+      - 1|_CN_->_US__2
+      - 1|_CN_->_US__3
+      - 1|_CN_->_UA_
+      - 1|_CN_->_AT_
+      - 🇺🇸_US_@ZDYZ2_259
+      - 🔒TR-TCP-NA🇬🇧GB-18.132.92.245:22222📡PING-081.75-MS
+      - 🔒TR-TCP-NA🇬🇧GB-18.169.247.68:22222📡PING-076.55-MS
+      - 🔒TR-TCP-TLS🇬🇧GB-13.41.67.170:22222📡PING-081.60-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.223.203:22222📡PING-085.82-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-3.74.83.133:22222📡PING-092.45-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-52.18.89.135:22222📡PING-073.07-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-34.242.120.239:22222📡PING-083.20-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-18.198.157.7:22222📡PING-091.91-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.96.139:22222📡PING-084.77-MS
+      - 🔒TR-TCP-TLS🇺🇸US-138.2.234.225:45555📡PING-073.27-MS
+      - 🔒TR-TCP-NA🇩🇪DE-18.198.62.12:22222📡PING-093.34-MS
+      - 🇸🇬+新加坡_1024077
+      - 🔒TR-TCP-TLS🇮🇪IE-52.209.239.173:22222📡PING-080.84-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-51.20.195.129:22222📡PING-158.68-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-16.170.176.203:22222📡PING-160.26-MS
+      - 🔒TR-TCP-TLS🇨🇦CA-35.182.204.195:22222📡PING-018.69-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-54.194.174.71:22222📡PING-070.86-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-13.48.110.217:22222📡PING-108.42-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.125.244:22222📡PING-082.20-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.115.109:22222📡PING-081.03-MS
+      - 🔒TR-TCP-NA🇫🇷FR-13.36.121.210:22222📡PING-083.92-MS
+      - 🔒
+      - https://1808.cfNode_119
+      - YD|www.zyw.asiaZYW免费节点_9
+      - YD|@Zyw_Channel_9
+      - YD|@Zyw_Channel_10
+      - YD|tg频道:@Zyw_Channel_9
+      - YD|www.zyw.asiaZYW免费节点_10
+      - YD|tg频道:@Zyw_Channel_10
+      - YD|www.zyw.asiaZYW免费节点_11
+      - YD|www.zyw.asiaZYW免费节点_12
+      - YD|TG频道内随机时间更新订阅地址_15
+      - DG|@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_1
+      - DG|@Zyw_Channel_2
+      - DG|tg频道:@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_2
+      - DG|tg频道:@Zyw_Channel_2
+      - DG|@Zyw_Channel_3
+      - DG|@Zyw_Channel_4
+      - DG|@Zyw_Channel_5
+      - DG|@Zyw_Channel_6
+      - DG|@Zyw_Channel_7
+      - DG|tg频道:@Zyw_Channel_3
+      - DG|@Zyw_Channel_8
+      - DG|tg频道:@Zyw_Channel_4
+      - DG|TG频道内随机时间更新订阅地址_3
+      - DG|TG频道内随机时间更新订阅地址_4
+      - DG|@Zyw_Channel_9
+      - DG|www.zyw.asiaZYW免费节点_1
+      - DG|tg频道:@Zyw_Channel_5
+      - DG|@Zyw_Channel_10
+      - DG|www.zyw.asiaZYW免费节点_2
+      - DG|www.zyw.asiaZYW免费节点_3
+      - DG|TG频道内随机时间更新订阅地址_5
+      - DG|tg频道:@Zyw_Channel_6
+      - DG|tg频道:@Zyw_Channel_7
+      - DG|@Zyw_Channel_11
+      - DG|@Zyw_Channel_12
+      - DG|@Zyw_Channel_13
+      - DG|tg频道:@Zyw_Channel_8
+      - DG|TG频道内随机时间更新订阅地址_6
+      - DG|@Zyw_Channel_14
+      - DG|tg频道:@Zyw_Channel_9
+      - DG|tg频道:@Zyw_Channel_10
+      - DG|tg频道:@Zyw_Channel_11
+      - DG|www.zyw.asiaZYW免费节点_4
+      - DG|@Zyw_Channel_15
+      - DG|@Zyw_Channel_16
+      - DG|www.zyw.asiaZYW免费节点_5
+      - DG|tg频道:@Zyw_Channel_12
+      - DG|tg频道:@Zyw_Channel_13
+      - DG|@Zyw_Channel_17
+      - DG|tg频道:@Zyw_Channel_14
+      - DG|@Zyw_Channel_18
+      - DG|TG频道内随机时间更新订阅地址_7
+      - DG|tg频道:@Zyw_Channel_15
+      - DG|@Zyw_Channel_19
+      - DG|www.zyw.asiaZYW免费节点_6
+      - DG|@Zyw_Channel_20
+      - DG|@Zyw_Channel_21
+      - DG|www.zyw.asiaZYW免费节点_7
+      - 亚洲(油管:破解资源君)_3
+      - 亚洲(油管:破解资源君)_4
+      - 亚洲(油管:破解资源君)_5
+      - 亚洲(油管:破解资源君)_6
+      - 美国(油管:破解资源君)_21
+      - 美国(油管:破解资源君)_22
   - name: 📲 电报信息
     type: select
     proxies:
@@ -2775,7 +3671,7 @@ proxy-groups:
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
       - 🇺🇸_US_美国->🇮🇳_IN_印度_3
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
       - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -2929,7 +3825,6 @@ proxy-groups:
       - 美国+得克萨斯州达拉斯Limestone网络公司
       - 🇺🇸_US_美国_9
       - 🇺🇸_CN_中国->🇺🇸_US_美国
-      - 14|🇯🇵日本|付费版推荐翻墙.com
       - 14|🇯🇵日本KT|@ripaojiedian
       - 14|🇯🇵日本KT2|@ripaojiedian
       - 14|🇭🇰香港KT1|@ripaojiedian
@@ -2961,7 +3856,6 @@ proxy-groups:
       - 法国【付费推荐：https://tt.vg/vip】17
       - 法国【付费推荐：https://tt.vg/vip】18
       - 法国【付费推荐：https://tt.vg/vip】4
-      - 日本|付费版推荐翻墙.com
       - Tolink-🇭🇰香港|101|专线|1x
       - Tolink-🇭🇰香港|102|专线|1x
       - Tolink-🇭🇰香港|103|专线|1x
@@ -2996,6 +3890,232 @@ proxy-groups:
       - YD|TG频道内随机时间更新订阅地址_14
       - YD|tg频道:@Zyw_Channel_8
       - 美国(油管:破解资源君)_20
+      - https://1808.cfNode_1
+      - https://1808.cfNode_2
+      - https://1808.cfNode_3
+      - https://1808.cfNode_4
+      - https://1808.cfNode_5
+      - https://1808.cfNode_6
+      - https://1808.cfNode_7
+      - https://1808.cfNode_8
+      - https://1808.cfNode_9
+      - https://1808.cfNode_10
+      - https://1808.cfNode_11
+      - https://1808.cfNode_12
+      - https://1808.cfNode_13
+      - https://1808.cfNode_14
+      - https://1808.cfNode_15
+      - https://1808.cfNode_16
+      - https://1808.cfNode_17
+      - https://1808.cfNode_18
+      - https://1808.cfNode_19
+      - https://1808.cfNode_20
+      - https://1808.cfNode_21
+      - https://1808.cfNode_22
+      - https://1808.cfNode_23
+      - https://1808.cfNode_25
+      - https://1808.cfNode_26
+      - https://1808.cfNode_27
+      - https://1808.cfNode_28
+      - https://1808.cfNode_29
+      - https://1808.cfNode_30
+      - https://1808.cfNode_31
+      - https://1808.cfNode_32
+      - https://1808.cfNode_33
+      - https://1808.cfNode_34
+      - https://1808.cfNode_35
+      - https://1808.cfNode_36
+      - https://1808.cfNode_37
+      - https://1808.cfNode_38
+      - https://1808.cfNode_39
+      - https://1808.cfNode_40
+      - https://1808.cfNode_41
+      - https://1808.cfNode_42
+      - https://1808.cfNode_43
+      - https://1808.cfNode_44
+      - https://1808.cfNode_45
+      - https://1808.cfNode_46
+      - https://1808.cfNode_47
+      - https://1808.cfNode_48
+      - https://1808.cfNode_50
+      - https://1808.cfNode_51
+      - https://1808.cfNode_52
+      - https://1808.cfNode_53
+      - https://1808.cfNode_54
+      - https://1808.cfNode_55
+      - https://1808.cfNode_56
+      - https://1808.cfNode_58
+      - https://1808.cfNode_59
+      - https://1808.cfNode_60
+      - https://1808.cfNode_61
+      - https://1808.cfNode_62
+      - https://1808.cfNode_63
+      - https://1808.cfNode_64
+      - https://1808.cfNode_65
+      - https://1808.cfNode_66
+      - https://1808.cfNode_67
+      - https://1808.cfNode_68
+      - https://1808.cfNode_69
+      - https://1808.cfNode_70
+      - https://1808.cfNode_71
+      - https://1808.cfNode_72
+      - https://1808.cfNode_73
+      - https://1808.cfNode_74
+      - https://1808.cfNode_75
+      - https://1808.cfNode_76
+      - https://1808.cfNode_77
+      - https://1808.cfNode_78
+      - https://1808.cfNode_79
+      - https://1808.cfNode_80
+      - https://1808.cfNode_81
+      - https://1808.cfNode_82
+      - https://1808.cfNode_83
+      - https://1808.cfNode_84
+      - https://1808.cfNode_85
+      - https://1808.cfNode_86
+      - https://1808.cfNode_87
+      - https://1808.cfNode_88
+      - https://1808.cfNode_89
+      - https://1808.cfNode_90
+      - https://1808.cfNode_91
+      - https://1808.cfNode_92
+      - https://1808.cfNode_93
+      - https://1808.cfNode_94
+      - https://1808.cfNode_95
+      - https://1808.cfNode_96
+      - https://1808.cfNode_97
+      - https://1808.cfNode_98
+      - https://1808.cfNode_99
+      - https://1808.cfNode_100
+      - https://1808.cfNode_101
+      - https://1808.cfNode_102
+      - https://1808.cfNode_103
+      - https://1808.cfNode_104
+      - https://1808.cfNode_105
+      - https://1808.cfNode_106
+      - https://1808.cfNode_107
+      - https://1808.cfNode_108
+      - https://1808.cfNode_109
+      - https://1808.cfNode_110
+      - https://1808.cfNode_111
+      - https://1808.cfNode_112
+      - https://1808.cfNode_113
+      - https://1808.cfNode_115
+      - https://1808.cfNode_116
+      - https://1808.cfNode_117
+      - https://1808.cfNode_118
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_1
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_3
+      - 🇷🇴_RO_罗马尼亚->🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_12
+      - 爱尔兰+都柏林Amazon数据中心
+      - 🇫🇷_FR_法国
+      - 🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国
+      - 1|_CN_->_US__1
+      - 1|_CN_->_US__2
+      - 1|_CN_->_US__3
+      - 1|_CN_->_UA_
+      - 1|_CN_->_AT_
+      - 🇺🇸_US_@ZDYZ2_259
+      - 🔒TR-TCP-NA🇬🇧GB-18.132.92.245:22222📡PING-081.75-MS
+      - 🔒TR-TCP-NA🇬🇧GB-18.169.247.68:22222📡PING-076.55-MS
+      - 🔒TR-TCP-TLS🇬🇧GB-13.41.67.170:22222📡PING-081.60-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.223.203:22222📡PING-085.82-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-3.74.83.133:22222📡PING-092.45-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-52.18.89.135:22222📡PING-073.07-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-34.242.120.239:22222📡PING-083.20-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-18.198.157.7:22222📡PING-091.91-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.96.139:22222📡PING-084.77-MS
+      - 🔒TR-TCP-TLS🇺🇸US-138.2.234.225:45555📡PING-073.27-MS
+      - 🔒TR-TCP-NA🇩🇪DE-18.198.62.12:22222📡PING-093.34-MS
+      - 🇸🇬+新加坡_1024077
+      - 🔒TR-TCP-TLS🇮🇪IE-52.209.239.173:22222📡PING-080.84-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-51.20.195.129:22222📡PING-158.68-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-16.170.176.203:22222📡PING-160.26-MS
+      - 🔒TR-TCP-TLS🇨🇦CA-35.182.204.195:22222📡PING-018.69-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-54.194.174.71:22222📡PING-070.86-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-13.48.110.217:22222📡PING-108.42-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.125.244:22222📡PING-082.20-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.115.109:22222📡PING-081.03-MS
+      - 🔒TR-TCP-NA🇫🇷FR-13.36.121.210:22222📡PING-083.92-MS
+      - 🔒
+      - https://1808.cfNode_119
+      - YD|www.zyw.asiaZYW免费节点_9
+      - YD|@Zyw_Channel_9
+      - YD|@Zyw_Channel_10
+      - YD|tg频道:@Zyw_Channel_9
+      - YD|www.zyw.asiaZYW免费节点_10
+      - YD|tg频道:@Zyw_Channel_10
+      - YD|www.zyw.asiaZYW免费节点_11
+      - YD|www.zyw.asiaZYW免费节点_12
+      - YD|TG频道内随机时间更新订阅地址_15
+      - DG|@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_1
+      - DG|@Zyw_Channel_2
+      - DG|tg频道:@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_2
+      - DG|tg频道:@Zyw_Channel_2
+      - DG|@Zyw_Channel_3
+      - DG|@Zyw_Channel_4
+      - DG|@Zyw_Channel_5
+      - DG|@Zyw_Channel_6
+      - DG|@Zyw_Channel_7
+      - DG|tg频道:@Zyw_Channel_3
+      - DG|@Zyw_Channel_8
+      - DG|tg频道:@Zyw_Channel_4
+      - DG|TG频道内随机时间更新订阅地址_3
+      - DG|TG频道内随机时间更新订阅地址_4
+      - DG|@Zyw_Channel_9
+      - DG|www.zyw.asiaZYW免费节点_1
+      - DG|tg频道:@Zyw_Channel_5
+      - DG|@Zyw_Channel_10
+      - DG|www.zyw.asiaZYW免费节点_2
+      - DG|www.zyw.asiaZYW免费节点_3
+      - DG|TG频道内随机时间更新订阅地址_5
+      - DG|tg频道:@Zyw_Channel_6
+      - DG|tg频道:@Zyw_Channel_7
+      - DG|@Zyw_Channel_11
+      - DG|@Zyw_Channel_12
+      - DG|@Zyw_Channel_13
+      - DG|tg频道:@Zyw_Channel_8
+      - DG|TG频道内随机时间更新订阅地址_6
+      - DG|@Zyw_Channel_14
+      - DG|tg频道:@Zyw_Channel_9
+      - DG|tg频道:@Zyw_Channel_10
+      - DG|tg频道:@Zyw_Channel_11
+      - DG|www.zyw.asiaZYW免费节点_4
+      - DG|@Zyw_Channel_15
+      - DG|@Zyw_Channel_16
+      - DG|www.zyw.asiaZYW免费节点_5
+      - DG|tg频道:@Zyw_Channel_12
+      - DG|tg频道:@Zyw_Channel_13
+      - DG|@Zyw_Channel_17
+      - DG|tg频道:@Zyw_Channel_14
+      - DG|@Zyw_Channel_18
+      - DG|TG频道内随机时间更新订阅地址_7
+      - DG|tg频道:@Zyw_Channel_15
+      - DG|@Zyw_Channel_19
+      - DG|www.zyw.asiaZYW免费节点_6
+      - DG|@Zyw_Channel_20
+      - DG|@Zyw_Channel_21
+      - DG|www.zyw.asiaZYW免费节点_7
+      - 亚洲(油管:破解资源君)_3
+      - 亚洲(油管:破解资源君)_4
+      - 亚洲(油管:破解资源君)_5
+      - 亚洲(油管:破解资源君)_6
+      - 美国(油管:破解资源君)_21
+      - 美国(油管:破解资源君)_22
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -3372,7 +4492,7 @@ proxy-groups:
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
       - 🇺🇸_US_美国->🇮🇳_IN_印度_3
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
       - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -3526,7 +4646,6 @@ proxy-groups:
       - 美国+得克萨斯州达拉斯Limestone网络公司
       - 🇺🇸_US_美国_9
       - 🇺🇸_CN_中国->🇺🇸_US_美国
-      - 14|🇯🇵日本|付费版推荐翻墙.com
       - 14|🇯🇵日本KT|@ripaojiedian
       - 14|🇯🇵日本KT2|@ripaojiedian
       - 14|🇭🇰香港KT1|@ripaojiedian
@@ -3558,7 +4677,6 @@ proxy-groups:
       - 法国【付费推荐：https://tt.vg/vip】17
       - 法国【付费推荐：https://tt.vg/vip】18
       - 法国【付费推荐：https://tt.vg/vip】4
-      - 日本|付费版推荐翻墙.com
       - Tolink-🇭🇰香港|101|专线|1x
       - Tolink-🇭🇰香港|102|专线|1x
       - Tolink-🇭🇰香港|103|专线|1x
@@ -3593,6 +4711,232 @@ proxy-groups:
       - YD|TG频道内随机时间更新订阅地址_14
       - YD|tg频道:@Zyw_Channel_8
       - 美国(油管:破解资源君)_20
+      - https://1808.cfNode_1
+      - https://1808.cfNode_2
+      - https://1808.cfNode_3
+      - https://1808.cfNode_4
+      - https://1808.cfNode_5
+      - https://1808.cfNode_6
+      - https://1808.cfNode_7
+      - https://1808.cfNode_8
+      - https://1808.cfNode_9
+      - https://1808.cfNode_10
+      - https://1808.cfNode_11
+      - https://1808.cfNode_12
+      - https://1808.cfNode_13
+      - https://1808.cfNode_14
+      - https://1808.cfNode_15
+      - https://1808.cfNode_16
+      - https://1808.cfNode_17
+      - https://1808.cfNode_18
+      - https://1808.cfNode_19
+      - https://1808.cfNode_20
+      - https://1808.cfNode_21
+      - https://1808.cfNode_22
+      - https://1808.cfNode_23
+      - https://1808.cfNode_25
+      - https://1808.cfNode_26
+      - https://1808.cfNode_27
+      - https://1808.cfNode_28
+      - https://1808.cfNode_29
+      - https://1808.cfNode_30
+      - https://1808.cfNode_31
+      - https://1808.cfNode_32
+      - https://1808.cfNode_33
+      - https://1808.cfNode_34
+      - https://1808.cfNode_35
+      - https://1808.cfNode_36
+      - https://1808.cfNode_37
+      - https://1808.cfNode_38
+      - https://1808.cfNode_39
+      - https://1808.cfNode_40
+      - https://1808.cfNode_41
+      - https://1808.cfNode_42
+      - https://1808.cfNode_43
+      - https://1808.cfNode_44
+      - https://1808.cfNode_45
+      - https://1808.cfNode_46
+      - https://1808.cfNode_47
+      - https://1808.cfNode_48
+      - https://1808.cfNode_50
+      - https://1808.cfNode_51
+      - https://1808.cfNode_52
+      - https://1808.cfNode_53
+      - https://1808.cfNode_54
+      - https://1808.cfNode_55
+      - https://1808.cfNode_56
+      - https://1808.cfNode_58
+      - https://1808.cfNode_59
+      - https://1808.cfNode_60
+      - https://1808.cfNode_61
+      - https://1808.cfNode_62
+      - https://1808.cfNode_63
+      - https://1808.cfNode_64
+      - https://1808.cfNode_65
+      - https://1808.cfNode_66
+      - https://1808.cfNode_67
+      - https://1808.cfNode_68
+      - https://1808.cfNode_69
+      - https://1808.cfNode_70
+      - https://1808.cfNode_71
+      - https://1808.cfNode_72
+      - https://1808.cfNode_73
+      - https://1808.cfNode_74
+      - https://1808.cfNode_75
+      - https://1808.cfNode_76
+      - https://1808.cfNode_77
+      - https://1808.cfNode_78
+      - https://1808.cfNode_79
+      - https://1808.cfNode_80
+      - https://1808.cfNode_81
+      - https://1808.cfNode_82
+      - https://1808.cfNode_83
+      - https://1808.cfNode_84
+      - https://1808.cfNode_85
+      - https://1808.cfNode_86
+      - https://1808.cfNode_87
+      - https://1808.cfNode_88
+      - https://1808.cfNode_89
+      - https://1808.cfNode_90
+      - https://1808.cfNode_91
+      - https://1808.cfNode_92
+      - https://1808.cfNode_93
+      - https://1808.cfNode_94
+      - https://1808.cfNode_95
+      - https://1808.cfNode_96
+      - https://1808.cfNode_97
+      - https://1808.cfNode_98
+      - https://1808.cfNode_99
+      - https://1808.cfNode_100
+      - https://1808.cfNode_101
+      - https://1808.cfNode_102
+      - https://1808.cfNode_103
+      - https://1808.cfNode_104
+      - https://1808.cfNode_105
+      - https://1808.cfNode_106
+      - https://1808.cfNode_107
+      - https://1808.cfNode_108
+      - https://1808.cfNode_109
+      - https://1808.cfNode_110
+      - https://1808.cfNode_111
+      - https://1808.cfNode_112
+      - https://1808.cfNode_113
+      - https://1808.cfNode_115
+      - https://1808.cfNode_116
+      - https://1808.cfNode_117
+      - https://1808.cfNode_118
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_1
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_3
+      - 🇷🇴_RO_罗马尼亚->🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_12
+      - 爱尔兰+都柏林Amazon数据中心
+      - 🇫🇷_FR_法国
+      - 🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国
+      - 1|_CN_->_US__1
+      - 1|_CN_->_US__2
+      - 1|_CN_->_US__3
+      - 1|_CN_->_UA_
+      - 1|_CN_->_AT_
+      - 🇺🇸_US_@ZDYZ2_259
+      - 🔒TR-TCP-NA🇬🇧GB-18.132.92.245:22222📡PING-081.75-MS
+      - 🔒TR-TCP-NA🇬🇧GB-18.169.247.68:22222📡PING-076.55-MS
+      - 🔒TR-TCP-TLS🇬🇧GB-13.41.67.170:22222📡PING-081.60-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.223.203:22222📡PING-085.82-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-3.74.83.133:22222📡PING-092.45-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-52.18.89.135:22222📡PING-073.07-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-34.242.120.239:22222📡PING-083.20-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-18.198.157.7:22222📡PING-091.91-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.96.139:22222📡PING-084.77-MS
+      - 🔒TR-TCP-TLS🇺🇸US-138.2.234.225:45555📡PING-073.27-MS
+      - 🔒TR-TCP-NA🇩🇪DE-18.198.62.12:22222📡PING-093.34-MS
+      - 🇸🇬+新加坡_1024077
+      - 🔒TR-TCP-TLS🇮🇪IE-52.209.239.173:22222📡PING-080.84-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-51.20.195.129:22222📡PING-158.68-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-16.170.176.203:22222📡PING-160.26-MS
+      - 🔒TR-TCP-TLS🇨🇦CA-35.182.204.195:22222📡PING-018.69-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-54.194.174.71:22222📡PING-070.86-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-13.48.110.217:22222📡PING-108.42-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.125.244:22222📡PING-082.20-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.115.109:22222📡PING-081.03-MS
+      - 🔒TR-TCP-NA🇫🇷FR-13.36.121.210:22222📡PING-083.92-MS
+      - 🔒
+      - https://1808.cfNode_119
+      - YD|www.zyw.asiaZYW免费节点_9
+      - YD|@Zyw_Channel_9
+      - YD|@Zyw_Channel_10
+      - YD|tg频道:@Zyw_Channel_9
+      - YD|www.zyw.asiaZYW免费节点_10
+      - YD|tg频道:@Zyw_Channel_10
+      - YD|www.zyw.asiaZYW免费节点_11
+      - YD|www.zyw.asiaZYW免费节点_12
+      - YD|TG频道内随机时间更新订阅地址_15
+      - DG|@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_1
+      - DG|@Zyw_Channel_2
+      - DG|tg频道:@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_2
+      - DG|tg频道:@Zyw_Channel_2
+      - DG|@Zyw_Channel_3
+      - DG|@Zyw_Channel_4
+      - DG|@Zyw_Channel_5
+      - DG|@Zyw_Channel_6
+      - DG|@Zyw_Channel_7
+      - DG|tg频道:@Zyw_Channel_3
+      - DG|@Zyw_Channel_8
+      - DG|tg频道:@Zyw_Channel_4
+      - DG|TG频道内随机时间更新订阅地址_3
+      - DG|TG频道内随机时间更新订阅地址_4
+      - DG|@Zyw_Channel_9
+      - DG|www.zyw.asiaZYW免费节点_1
+      - DG|tg频道:@Zyw_Channel_5
+      - DG|@Zyw_Channel_10
+      - DG|www.zyw.asiaZYW免费节点_2
+      - DG|www.zyw.asiaZYW免费节点_3
+      - DG|TG频道内随机时间更新订阅地址_5
+      - DG|tg频道:@Zyw_Channel_6
+      - DG|tg频道:@Zyw_Channel_7
+      - DG|@Zyw_Channel_11
+      - DG|@Zyw_Channel_12
+      - DG|@Zyw_Channel_13
+      - DG|tg频道:@Zyw_Channel_8
+      - DG|TG频道内随机时间更新订阅地址_6
+      - DG|@Zyw_Channel_14
+      - DG|tg频道:@Zyw_Channel_9
+      - DG|tg频道:@Zyw_Channel_10
+      - DG|tg频道:@Zyw_Channel_11
+      - DG|www.zyw.asiaZYW免费节点_4
+      - DG|@Zyw_Channel_15
+      - DG|@Zyw_Channel_16
+      - DG|www.zyw.asiaZYW免费节点_5
+      - DG|tg频道:@Zyw_Channel_12
+      - DG|tg频道:@Zyw_Channel_13
+      - DG|@Zyw_Channel_17
+      - DG|tg频道:@Zyw_Channel_14
+      - DG|@Zyw_Channel_18
+      - DG|TG频道内随机时间更新订阅地址_7
+      - DG|tg频道:@Zyw_Channel_15
+      - DG|@Zyw_Channel_19
+      - DG|www.zyw.asiaZYW免费节点_6
+      - DG|@Zyw_Channel_20
+      - DG|@Zyw_Channel_21
+      - DG|www.zyw.asiaZYW免费节点_7
+      - 亚洲(油管:破解资源君)_3
+      - 亚洲(油管:破解资源君)_4
+      - 亚洲(油管:破解资源君)_5
+      - 亚洲(油管:破解资源君)_6
+      - 美国(油管:破解资源君)_21
+      - 美国(油管:破解资源君)_22
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -3969,7 +5313,7 @@ proxy-groups:
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
       - 🇺🇸_US_美国->🇮🇳_IN_印度_3
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
       - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -4123,7 +5467,6 @@ proxy-groups:
       - 美国+得克萨斯州达拉斯Limestone网络公司
       - 🇺🇸_US_美国_9
       - 🇺🇸_CN_中国->🇺🇸_US_美国
-      - 14|🇯🇵日本|付费版推荐翻墙.com
       - 14|🇯🇵日本KT|@ripaojiedian
       - 14|🇯🇵日本KT2|@ripaojiedian
       - 14|🇭🇰香港KT1|@ripaojiedian
@@ -4155,7 +5498,6 @@ proxy-groups:
       - 法国【付费推荐：https://tt.vg/vip】17
       - 法国【付费推荐：https://tt.vg/vip】18
       - 法国【付费推荐：https://tt.vg/vip】4
-      - 日本|付费版推荐翻墙.com
       - Tolink-🇭🇰香港|101|专线|1x
       - Tolink-🇭🇰香港|102|专线|1x
       - Tolink-🇭🇰香港|103|专线|1x
@@ -4190,6 +5532,232 @@ proxy-groups:
       - YD|TG频道内随机时间更新订阅地址_14
       - YD|tg频道:@Zyw_Channel_8
       - 美国(油管:破解资源君)_20
+      - https://1808.cfNode_1
+      - https://1808.cfNode_2
+      - https://1808.cfNode_3
+      - https://1808.cfNode_4
+      - https://1808.cfNode_5
+      - https://1808.cfNode_6
+      - https://1808.cfNode_7
+      - https://1808.cfNode_8
+      - https://1808.cfNode_9
+      - https://1808.cfNode_10
+      - https://1808.cfNode_11
+      - https://1808.cfNode_12
+      - https://1808.cfNode_13
+      - https://1808.cfNode_14
+      - https://1808.cfNode_15
+      - https://1808.cfNode_16
+      - https://1808.cfNode_17
+      - https://1808.cfNode_18
+      - https://1808.cfNode_19
+      - https://1808.cfNode_20
+      - https://1808.cfNode_21
+      - https://1808.cfNode_22
+      - https://1808.cfNode_23
+      - https://1808.cfNode_25
+      - https://1808.cfNode_26
+      - https://1808.cfNode_27
+      - https://1808.cfNode_28
+      - https://1808.cfNode_29
+      - https://1808.cfNode_30
+      - https://1808.cfNode_31
+      - https://1808.cfNode_32
+      - https://1808.cfNode_33
+      - https://1808.cfNode_34
+      - https://1808.cfNode_35
+      - https://1808.cfNode_36
+      - https://1808.cfNode_37
+      - https://1808.cfNode_38
+      - https://1808.cfNode_39
+      - https://1808.cfNode_40
+      - https://1808.cfNode_41
+      - https://1808.cfNode_42
+      - https://1808.cfNode_43
+      - https://1808.cfNode_44
+      - https://1808.cfNode_45
+      - https://1808.cfNode_46
+      - https://1808.cfNode_47
+      - https://1808.cfNode_48
+      - https://1808.cfNode_50
+      - https://1808.cfNode_51
+      - https://1808.cfNode_52
+      - https://1808.cfNode_53
+      - https://1808.cfNode_54
+      - https://1808.cfNode_55
+      - https://1808.cfNode_56
+      - https://1808.cfNode_58
+      - https://1808.cfNode_59
+      - https://1808.cfNode_60
+      - https://1808.cfNode_61
+      - https://1808.cfNode_62
+      - https://1808.cfNode_63
+      - https://1808.cfNode_64
+      - https://1808.cfNode_65
+      - https://1808.cfNode_66
+      - https://1808.cfNode_67
+      - https://1808.cfNode_68
+      - https://1808.cfNode_69
+      - https://1808.cfNode_70
+      - https://1808.cfNode_71
+      - https://1808.cfNode_72
+      - https://1808.cfNode_73
+      - https://1808.cfNode_74
+      - https://1808.cfNode_75
+      - https://1808.cfNode_76
+      - https://1808.cfNode_77
+      - https://1808.cfNode_78
+      - https://1808.cfNode_79
+      - https://1808.cfNode_80
+      - https://1808.cfNode_81
+      - https://1808.cfNode_82
+      - https://1808.cfNode_83
+      - https://1808.cfNode_84
+      - https://1808.cfNode_85
+      - https://1808.cfNode_86
+      - https://1808.cfNode_87
+      - https://1808.cfNode_88
+      - https://1808.cfNode_89
+      - https://1808.cfNode_90
+      - https://1808.cfNode_91
+      - https://1808.cfNode_92
+      - https://1808.cfNode_93
+      - https://1808.cfNode_94
+      - https://1808.cfNode_95
+      - https://1808.cfNode_96
+      - https://1808.cfNode_97
+      - https://1808.cfNode_98
+      - https://1808.cfNode_99
+      - https://1808.cfNode_100
+      - https://1808.cfNode_101
+      - https://1808.cfNode_102
+      - https://1808.cfNode_103
+      - https://1808.cfNode_104
+      - https://1808.cfNode_105
+      - https://1808.cfNode_106
+      - https://1808.cfNode_107
+      - https://1808.cfNode_108
+      - https://1808.cfNode_109
+      - https://1808.cfNode_110
+      - https://1808.cfNode_111
+      - https://1808.cfNode_112
+      - https://1808.cfNode_113
+      - https://1808.cfNode_115
+      - https://1808.cfNode_116
+      - https://1808.cfNode_117
+      - https://1808.cfNode_118
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_1
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_3
+      - 🇷🇴_RO_罗马尼亚->🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_12
+      - 爱尔兰+都柏林Amazon数据中心
+      - 🇫🇷_FR_法国
+      - 🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国
+      - 1|_CN_->_US__1
+      - 1|_CN_->_US__2
+      - 1|_CN_->_US__3
+      - 1|_CN_->_UA_
+      - 1|_CN_->_AT_
+      - 🇺🇸_US_@ZDYZ2_259
+      - 🔒TR-TCP-NA🇬🇧GB-18.132.92.245:22222📡PING-081.75-MS
+      - 🔒TR-TCP-NA🇬🇧GB-18.169.247.68:22222📡PING-076.55-MS
+      - 🔒TR-TCP-TLS🇬🇧GB-13.41.67.170:22222📡PING-081.60-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.223.203:22222📡PING-085.82-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-3.74.83.133:22222📡PING-092.45-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-52.18.89.135:22222📡PING-073.07-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-34.242.120.239:22222📡PING-083.20-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-18.198.157.7:22222📡PING-091.91-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.96.139:22222📡PING-084.77-MS
+      - 🔒TR-TCP-TLS🇺🇸US-138.2.234.225:45555📡PING-073.27-MS
+      - 🔒TR-TCP-NA🇩🇪DE-18.198.62.12:22222📡PING-093.34-MS
+      - 🇸🇬+新加坡_1024077
+      - 🔒TR-TCP-TLS🇮🇪IE-52.209.239.173:22222📡PING-080.84-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-51.20.195.129:22222📡PING-158.68-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-16.170.176.203:22222📡PING-160.26-MS
+      - 🔒TR-TCP-TLS🇨🇦CA-35.182.204.195:22222📡PING-018.69-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-54.194.174.71:22222📡PING-070.86-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-13.48.110.217:22222📡PING-108.42-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.125.244:22222📡PING-082.20-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.115.109:22222📡PING-081.03-MS
+      - 🔒TR-TCP-NA🇫🇷FR-13.36.121.210:22222📡PING-083.92-MS
+      - 🔒
+      - https://1808.cfNode_119
+      - YD|www.zyw.asiaZYW免费节点_9
+      - YD|@Zyw_Channel_9
+      - YD|@Zyw_Channel_10
+      - YD|tg频道:@Zyw_Channel_9
+      - YD|www.zyw.asiaZYW免费节点_10
+      - YD|tg频道:@Zyw_Channel_10
+      - YD|www.zyw.asiaZYW免费节点_11
+      - YD|www.zyw.asiaZYW免费节点_12
+      - YD|TG频道内随机时间更新订阅地址_15
+      - DG|@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_1
+      - DG|@Zyw_Channel_2
+      - DG|tg频道:@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_2
+      - DG|tg频道:@Zyw_Channel_2
+      - DG|@Zyw_Channel_3
+      - DG|@Zyw_Channel_4
+      - DG|@Zyw_Channel_5
+      - DG|@Zyw_Channel_6
+      - DG|@Zyw_Channel_7
+      - DG|tg频道:@Zyw_Channel_3
+      - DG|@Zyw_Channel_8
+      - DG|tg频道:@Zyw_Channel_4
+      - DG|TG频道内随机时间更新订阅地址_3
+      - DG|TG频道内随机时间更新订阅地址_4
+      - DG|@Zyw_Channel_9
+      - DG|www.zyw.asiaZYW免费节点_1
+      - DG|tg频道:@Zyw_Channel_5
+      - DG|@Zyw_Channel_10
+      - DG|www.zyw.asiaZYW免费节点_2
+      - DG|www.zyw.asiaZYW免费节点_3
+      - DG|TG频道内随机时间更新订阅地址_5
+      - DG|tg频道:@Zyw_Channel_6
+      - DG|tg频道:@Zyw_Channel_7
+      - DG|@Zyw_Channel_11
+      - DG|@Zyw_Channel_12
+      - DG|@Zyw_Channel_13
+      - DG|tg频道:@Zyw_Channel_8
+      - DG|TG频道内随机时间更新订阅地址_6
+      - DG|@Zyw_Channel_14
+      - DG|tg频道:@Zyw_Channel_9
+      - DG|tg频道:@Zyw_Channel_10
+      - DG|tg频道:@Zyw_Channel_11
+      - DG|www.zyw.asiaZYW免费节点_4
+      - DG|@Zyw_Channel_15
+      - DG|@Zyw_Channel_16
+      - DG|www.zyw.asiaZYW免费节点_5
+      - DG|tg频道:@Zyw_Channel_12
+      - DG|tg频道:@Zyw_Channel_13
+      - DG|@Zyw_Channel_17
+      - DG|tg频道:@Zyw_Channel_14
+      - DG|@Zyw_Channel_18
+      - DG|TG频道内随机时间更新订阅地址_7
+      - DG|tg频道:@Zyw_Channel_15
+      - DG|@Zyw_Channel_19
+      - DG|www.zyw.asiaZYW免费节点_6
+      - DG|@Zyw_Channel_20
+      - DG|@Zyw_Channel_21
+      - DG|www.zyw.asiaZYW免费节点_7
+      - 亚洲(油管:破解资源君)_3
+      - 亚洲(油管:破解资源君)_4
+      - 亚洲(油管:破解资源君)_5
+      - 亚洲(油管:破解资源君)_6
+      - 美国(油管:破解资源君)_21
+      - 美国(油管:破解资源君)_22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -4583,7 +6151,7 @@ proxy-groups:
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
       - 🇺🇸_US_美国->🇮🇳_IN_印度_3
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_1
       - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -4737,7 +6305,6 @@ proxy-groups:
       - 美国+得克萨斯州达拉斯Limestone网络公司
       - 🇺🇸_US_美国_9
       - 🇺🇸_CN_中国->🇺🇸_US_美国
-      - 14|🇯🇵日本|付费版推荐翻墙.com
       - 14|🇯🇵日本KT|@ripaojiedian
       - 14|🇯🇵日本KT2|@ripaojiedian
       - 14|🇭🇰香港KT1|@ripaojiedian
@@ -4769,7 +6336,6 @@ proxy-groups:
       - 法国【付费推荐：https://tt.vg/vip】17
       - 法国【付费推荐：https://tt.vg/vip】18
       - 法国【付费推荐：https://tt.vg/vip】4
-      - 日本|付费版推荐翻墙.com
       - Tolink-🇭🇰香港|101|专线|1x
       - Tolink-🇭🇰香港|102|专线|1x
       - Tolink-🇭🇰香港|103|专线|1x
@@ -4804,6 +6370,232 @@ proxy-groups:
       - YD|TG频道内随机时间更新订阅地址_14
       - YD|tg频道:@Zyw_Channel_8
       - 美国(油管:破解资源君)_20
+      - https://1808.cfNode_1
+      - https://1808.cfNode_2
+      - https://1808.cfNode_3
+      - https://1808.cfNode_4
+      - https://1808.cfNode_5
+      - https://1808.cfNode_6
+      - https://1808.cfNode_7
+      - https://1808.cfNode_8
+      - https://1808.cfNode_9
+      - https://1808.cfNode_10
+      - https://1808.cfNode_11
+      - https://1808.cfNode_12
+      - https://1808.cfNode_13
+      - https://1808.cfNode_14
+      - https://1808.cfNode_15
+      - https://1808.cfNode_16
+      - https://1808.cfNode_17
+      - https://1808.cfNode_18
+      - https://1808.cfNode_19
+      - https://1808.cfNode_20
+      - https://1808.cfNode_21
+      - https://1808.cfNode_22
+      - https://1808.cfNode_23
+      - https://1808.cfNode_25
+      - https://1808.cfNode_26
+      - https://1808.cfNode_27
+      - https://1808.cfNode_28
+      - https://1808.cfNode_29
+      - https://1808.cfNode_30
+      - https://1808.cfNode_31
+      - https://1808.cfNode_32
+      - https://1808.cfNode_33
+      - https://1808.cfNode_34
+      - https://1808.cfNode_35
+      - https://1808.cfNode_36
+      - https://1808.cfNode_37
+      - https://1808.cfNode_38
+      - https://1808.cfNode_39
+      - https://1808.cfNode_40
+      - https://1808.cfNode_41
+      - https://1808.cfNode_42
+      - https://1808.cfNode_43
+      - https://1808.cfNode_44
+      - https://1808.cfNode_45
+      - https://1808.cfNode_46
+      - https://1808.cfNode_47
+      - https://1808.cfNode_48
+      - https://1808.cfNode_50
+      - https://1808.cfNode_51
+      - https://1808.cfNode_52
+      - https://1808.cfNode_53
+      - https://1808.cfNode_54
+      - https://1808.cfNode_55
+      - https://1808.cfNode_56
+      - https://1808.cfNode_58
+      - https://1808.cfNode_59
+      - https://1808.cfNode_60
+      - https://1808.cfNode_61
+      - https://1808.cfNode_62
+      - https://1808.cfNode_63
+      - https://1808.cfNode_64
+      - https://1808.cfNode_65
+      - https://1808.cfNode_66
+      - https://1808.cfNode_67
+      - https://1808.cfNode_68
+      - https://1808.cfNode_69
+      - https://1808.cfNode_70
+      - https://1808.cfNode_71
+      - https://1808.cfNode_72
+      - https://1808.cfNode_73
+      - https://1808.cfNode_74
+      - https://1808.cfNode_75
+      - https://1808.cfNode_76
+      - https://1808.cfNode_77
+      - https://1808.cfNode_78
+      - https://1808.cfNode_79
+      - https://1808.cfNode_80
+      - https://1808.cfNode_81
+      - https://1808.cfNode_82
+      - https://1808.cfNode_83
+      - https://1808.cfNode_84
+      - https://1808.cfNode_85
+      - https://1808.cfNode_86
+      - https://1808.cfNode_87
+      - https://1808.cfNode_88
+      - https://1808.cfNode_89
+      - https://1808.cfNode_90
+      - https://1808.cfNode_91
+      - https://1808.cfNode_92
+      - https://1808.cfNode_93
+      - https://1808.cfNode_94
+      - https://1808.cfNode_95
+      - https://1808.cfNode_96
+      - https://1808.cfNode_97
+      - https://1808.cfNode_98
+      - https://1808.cfNode_99
+      - https://1808.cfNode_100
+      - https://1808.cfNode_101
+      - https://1808.cfNode_102
+      - https://1808.cfNode_103
+      - https://1808.cfNode_104
+      - https://1808.cfNode_105
+      - https://1808.cfNode_106
+      - https://1808.cfNode_107
+      - https://1808.cfNode_108
+      - https://1808.cfNode_109
+      - https://1808.cfNode_110
+      - https://1808.cfNode_111
+      - https://1808.cfNode_112
+      - https://1808.cfNode_113
+      - https://1808.cfNode_115
+      - https://1808.cfNode_116
+      - https://1808.cfNode_117
+      - https://1808.cfNode_118
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_1
+      - 🇳🇱_NL_荷兰->🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_4
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_3
+      - 🇷🇴_RO_罗马尼亚->🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_12
+      - 爱尔兰+都柏林Amazon数据中心
+      - 🇫🇷_FR_法国
+      - 🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国
+      - 1|_CN_->_US__1
+      - 1|_CN_->_US__2
+      - 1|_CN_->_US__3
+      - 1|_CN_->_UA_
+      - 1|_CN_->_AT_
+      - 🇺🇸_US_@ZDYZ2_259
+      - 🔒TR-TCP-NA🇬🇧GB-18.132.92.245:22222📡PING-081.75-MS
+      - 🔒TR-TCP-NA🇬🇧GB-18.169.247.68:22222📡PING-076.55-MS
+      - 🔒TR-TCP-TLS🇬🇧GB-13.41.67.170:22222📡PING-081.60-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.223.203:22222📡PING-085.82-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-3.74.83.133:22222📡PING-092.45-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-52.18.89.135:22222📡PING-073.07-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-34.242.120.239:22222📡PING-083.20-MS
+      - 🔒TR-TCP-TLS🇩🇪DE-18.198.157.7:22222📡PING-091.91-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.96.139:22222📡PING-084.77-MS
+      - 🔒TR-TCP-TLS🇺🇸US-138.2.234.225:45555📡PING-073.27-MS
+      - 🔒TR-TCP-NA🇩🇪DE-18.198.62.12:22222📡PING-093.34-MS
+      - 🇸🇬+新加坡_1024077
+      - 🔒TR-TCP-TLS🇮🇪IE-52.209.239.173:22222📡PING-080.84-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-51.20.195.129:22222📡PING-158.68-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-16.170.176.203:22222📡PING-160.26-MS
+      - 🔒TR-TCP-TLS🇨🇦CA-35.182.204.195:22222📡PING-018.69-MS
+      - 🔒TR-TCP-TLS🇮🇪IE-54.194.174.71:22222📡PING-070.86-MS
+      - 🔒TR-TCP-TLS🇸🇪SE-13.48.110.217:22222📡PING-108.42-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-52.47.125.244:22222📡PING-082.20-MS
+      - 🔒TR-TCP-TLS🇫🇷FR-13.36.115.109:22222📡PING-081.03-MS
+      - 🔒TR-TCP-NA🇫🇷FR-13.36.121.210:22222📡PING-083.92-MS
+      - 🔒
+      - https://1808.cfNode_119
+      - YD|www.zyw.asiaZYW免费节点_9
+      - YD|@Zyw_Channel_9
+      - YD|@Zyw_Channel_10
+      - YD|tg频道:@Zyw_Channel_9
+      - YD|www.zyw.asiaZYW免费节点_10
+      - YD|tg频道:@Zyw_Channel_10
+      - YD|www.zyw.asiaZYW免费节点_11
+      - YD|www.zyw.asiaZYW免费节点_12
+      - YD|TG频道内随机时间更新订阅地址_15
+      - DG|@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_1
+      - DG|@Zyw_Channel_2
+      - DG|tg频道:@Zyw_Channel_1
+      - DG|TG频道内随机时间更新订阅地址_2
+      - DG|tg频道:@Zyw_Channel_2
+      - DG|@Zyw_Channel_3
+      - DG|@Zyw_Channel_4
+      - DG|@Zyw_Channel_5
+      - DG|@Zyw_Channel_6
+      - DG|@Zyw_Channel_7
+      - DG|tg频道:@Zyw_Channel_3
+      - DG|@Zyw_Channel_8
+      - DG|tg频道:@Zyw_Channel_4
+      - DG|TG频道内随机时间更新订阅地址_3
+      - DG|TG频道内随机时间更新订阅地址_4
+      - DG|@Zyw_Channel_9
+      - DG|www.zyw.asiaZYW免费节点_1
+      - DG|tg频道:@Zyw_Channel_5
+      - DG|@Zyw_Channel_10
+      - DG|www.zyw.asiaZYW免费节点_2
+      - DG|www.zyw.asiaZYW免费节点_3
+      - DG|TG频道内随机时间更新订阅地址_5
+      - DG|tg频道:@Zyw_Channel_6
+      - DG|tg频道:@Zyw_Channel_7
+      - DG|@Zyw_Channel_11
+      - DG|@Zyw_Channel_12
+      - DG|@Zyw_Channel_13
+      - DG|tg频道:@Zyw_Channel_8
+      - DG|TG频道内随机时间更新订阅地址_6
+      - DG|@Zyw_Channel_14
+      - DG|tg频道:@Zyw_Channel_9
+      - DG|tg频道:@Zyw_Channel_10
+      - DG|tg频道:@Zyw_Channel_11
+      - DG|www.zyw.asiaZYW免费节点_4
+      - DG|@Zyw_Channel_15
+      - DG|@Zyw_Channel_16
+      - DG|www.zyw.asiaZYW免费节点_5
+      - DG|tg频道:@Zyw_Channel_12
+      - DG|tg频道:@Zyw_Channel_13
+      - DG|@Zyw_Channel_17
+      - DG|tg频道:@Zyw_Channel_14
+      - DG|@Zyw_Channel_18
+      - DG|TG频道内随机时间更新订阅地址_7
+      - DG|tg频道:@Zyw_Channel_15
+      - DG|@Zyw_Channel_19
+      - DG|www.zyw.asiaZYW免费节点_6
+      - DG|@Zyw_Channel_20
+      - DG|@Zyw_Channel_21
+      - DG|www.zyw.asiaZYW免费节点_7
+      - 亚洲(油管:破解资源君)_3
+      - 亚洲(油管:破解资源君)_4
+      - 亚洲(油管:破解资源君)_5
+      - 亚洲(油管:破解资源君)_6
+      - 美国(油管:破解资源君)_21
+      - 美国(油管:破解资源君)_22
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
